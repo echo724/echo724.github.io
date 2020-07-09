@@ -7,28 +7,28 @@
 
 section.explanation {
     padding-top: 40px;
-    
+
     @media (max-width: $break-small) {
         padding-top: 20px;
     }
-    
+
     h1.intro {
         font-family: $source, $san-serif;
         font-size: 38px;
         font-weight: bold;
         line-height: 1.17;
         margin: 0;
-    
+
         @media (max-width: $break-small) {
         font-size: 32px;
         }
-        
+
         @media (max-width: 550px) {
             margin-bottom: 8px;
         }
-    
+
     }
-    
+
     h2.intro {
         font-size: 30px;
         font-weight: 400;
@@ -36,34 +36,34 @@ section.explanation {
         line-height: 1.4;
         word-wrap: normal;
         margin: 20px 0 0 0;
-    
+
         @media (max-width: $break-small) {
         font-size: 24px;
-        }    
-        
+        }
+
     }
-    
+
     p.body {
         font-size: 16px;
         color: $grey-0;
         line-height: 1.75;
         margin: 20px 0 64px 0;
     }
-    
+
     .intro-link {
         display: inline-block;
     }
-    
+
     .intro-link:hover
     a {
         cursor: pointer;
-        color: $ridi-blue;
-        
+        color: $blue;
+
         @media (max-width: $break-small) {
             color: $grey-0;
         }
     }
-    
+
     .underline,
     .underline-mask {
         width: inherit;
@@ -74,7 +74,7 @@ section.explanation {
     
     .underline-mask {
         content: '';
-        background-color: $ridi-blue;
+        background-color: $blue;
         transform: scaleX(0);
 //        transform-origin: 0% 0%;
         transition: transform 300ms ease-in-out;
@@ -82,7 +82,7 @@ section.explanation {
             transform: none;
         }
     }
-    
+
     .intro-link:hover
     .underline-mask {
         transform: scaleX(1);
@@ -91,5 +91,5 @@ section.explanation {
             transform: none;
         }
     }
-    
+
 }
