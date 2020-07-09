@@ -13,7 +13,7 @@ description: Hello. I'm a college student studying in U.S. Computer Science Majo
     <h1 class="intro">Lazy Developer making 
         <div class="intro-link">
             <a class="transition" href="http://ridicorp.com/" target="_blank">
-                Programs.
+                Programs
             </a>
             <div class="underline-mask transition"></div>
             <div class="underline"></div>
