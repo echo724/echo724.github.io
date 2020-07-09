@@ -23,6 +23,13 @@ author:
   facebook:     eunchan1001
 
 # Custom vars
-version:        
+version:
 github:
   repo:         https://github.com/echo724/echo724.github.io
+
+# Collections
+collections:
+  blog:
+    output: true
+  project:
+    output: true
