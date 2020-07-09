@@ -8,12 +8,12 @@ description: Hello. I'm a college student studying in U.S. Computer Science Majo
 <div class="intro-animation">
 <section class="explanation">
     <h1 class="intro">
-    I'm Echo,
+    Hello, I'm Echo,
     </h1>
-    <h1 class="intro">Lazy Developer making 
+    <h1 class="intro">A Software Developer who makes programms to become
         <div class="intro-link">
-            <a class="transition" href="http://ridicorp.com/" target="_blank">
-                Programs
+            <a class="transition" href="https://echo724.github.io" target="_blank">
+                Lazy
             </a>
             <div class="underline-mask transition"></div>
             <div class="underline"></div>
