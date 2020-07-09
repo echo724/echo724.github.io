@@ -1,34 +1,77 @@
 ---
 layout: post
-title: "Jihye Leee"
-subtitle: "이지혜"
+title: "Echo"
+subtitle: "Eunchan Cho"
 type: "About"
-author: "Jihye Lee"
 permalink: /about/
-post-header: true
-header-img: img/about.jpg
 ---
 
-UX 에이전시 GUI 디자이너를 거쳐 현재는 RIDI에서 프로덕트 디자이너로 5년째 근무 중이다. 디자이너에게 코딩을 알려주는 코딩하는 디자이너라는 프로그램을 운영하고 브랜딩하기도 했다. 더 좋은 디자인 팀 만들기와 디자이너의 글쓰기에 관심이 많다.
 
-# Media
-### Design Spectrum의 팟캐스트 Design Table
+`편리함`과 `깔끔함`을 추구하는 `개발자` `조은찬`입니다.
 
-- Design Table Ep 19. `끊임없이 배우는 디자이너`
-- 들을 수 있는 곳: [iTunes](http://itun.es/kr/i6TOib.c) / [팟빵](http://www.podbbang.com/ch/13590) / [Podty](https://www.podty.me/cast/174282)
 
-<br />
+![profile.png](/assets/images/profile.png){: width="200" height = "200"}
 
-### 디자인 매거진 CA 2015년 3월호
 
-- [디자이너와 스타트업 종사자의 네트워킹 파티](http://cakorea.com/archives/2779)
+# Info.
 
-<br />
+Email: [eunchan1001@gmail.com](mailto:eunchan1001@gmail.com)
 
-### 월간 마이크로소프트웨어 2015년 2월호 표지 모델 및 기사
+***
 
-- [마소 VOL. 376-2015.02](https://www.imaso.co.kr/archives/458)
-- [코딩하는 디자이너를 말하다](http://14.49.34.137/?p=3216)
-- [이지혜 DXD세미나 운영진 “코딩은 또 하나의 즐거움”](http://14.49.34.137/?p=3207)
+# Channels.
 
-<br />
+[Minicar's_Blog](https://www.notion.so/minicar/Minicar-s_Blog-1271c8a4ce8248ff855d162d46e3524e)
+
+[Facebook](https://www.facebook.com/eunchan1001/)
+
+[eunchan1001 - Overview](https://github.com/eunchan1001)
+
+[Profile of eunchan1001](https://pypi.org/user/eunchan1001/)
+
+***
+
+# Intro.
+
+미국에서 컴퓨터 과학 전공으로 대학을 다니고 있습니다. 추가로 딥러닝과 데이터 학습 공부를 하고 있습니다. AI Eingneer를 목표로 학습 중 입니다.
+
+개발을 하는 가장 큰 이유는 귀찮기 싫어서 입니다. 어떻게 해서든 일 하나를 줄여주는 프로그램을 개발하고 만듭니다.
+
+때론 개발 환경을 깔끔하게 정리하고 꾸미는 것을 더 좋아합니다. (vim유저 입니다)
+
+***
+
+# Skill.
+
+**Language**
+
+- Python: 패키지 개발, 데이터 학습
+- C++: 대학교 수업, 과제
+- Swift: 개인 공부, IOS App 개발
+
+**Field**
+
+- Development: 개인 계산 패키지 배포
+- Data:
+- Infra
+- Server
+
+***
+
+# Career.
+
+***
+
+# Background.
+
+**Diablo Valley College / Computer Science**
+
+2018년 6월 - 2020년 5월
+
+미국 캘리포니아
+
+**University of California San Diego / Computer Science**
+
+2020년 9월 -
+
+미국 캘리포니아
