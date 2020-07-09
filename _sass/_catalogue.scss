@@ -12,16 +12,16 @@
   }
 
     &-type {
-        color: $purple;
+        color: $blue;
         font-size: 18px;
         font-family: $source;
         font-weight: 600;
         margin-bottom: 10px;
     }
-   
+
     &-info {
         display: inline-block;
-        
+
         .catalogue-tag {
             font-family: $source;
             display: inline-block;
@@ -34,13 +34,13 @@
             margin-bottom: 10px;
             background-color: $yellow;
             border-radius: 8px;
-            
+
             @media (max-width: $break-medium) {
                 margin: 10px 0;
             }
-            
+
         }
-        
+
         h1.catalogue-title {
             color: $grey-0;
             display: block;
@@ -55,12 +55,12 @@
                   font-size: 22px;
             }
         }
-        
+
         @media (max-width: $break-medium) {
             display: block;
             width: 100%;
         }
-        
+
         p.catalogue-sub {
             font-size: 18px;
             color: $grey-1;
@@ -69,24 +69,24 @@
 
             @media (max-width: $break-small) {
                 font-size: 16px;
-            }        
+            }
         }
 
         p.catalogue-body {
             font-size: 16px;
             color: $grey-1;
         }
-        
+
     }
-    
+
     .catalogue-draft-message {
         text-align: center;
     }
-    
+
 }
 
 .catalogue-item:hover
-.catalogue-info {     
+.catalogue-info {
     cursor: pointer;
     opacity: .6;
 }
