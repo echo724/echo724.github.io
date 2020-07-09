@@ -2,9 +2,9 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Jihye Leee
+title:          Echo's Blog
 baseurl:        ""
-url:            "http://www.jihyeleee.com"
+url:            "https://www.echo724.github.io"
 
 # Assets
 sass:
@@ -16,13 +16,13 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Jihye Leee
-  url:          http://jihyeleee.com/
-  email:        iam.leejihye@gmail.com  
-  github:       iamleejihye
-  twitter:      playpingpong
+  name:         Eunchan Cho
+  url:          https://www.echo724.github.io
+  email:        eunchan1001@gmail.com
+  github:       echo724
+  facebook:     eunchan1001
 
 # Custom vars
-version:        3.4.1
+version:        
 github:
-  repo:         https://github.com/iamleejihye/iamleejihye.github.io
+  repo:         https://github.com/echo724/echo724.github.io
