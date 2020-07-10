@@ -18,6 +18,7 @@
         font-weight: 600;
         margin-bottom: 10px;
     }
+
     &-info {
         display: inline-block;
 
@@ -76,9 +77,10 @@
             color: $grey-1;
         }
         p.catalogue-date{
+          color: $default-tint;
           font-size: 16px;
-          color: $grey-1;
           font-family: $source;
+          font-weight: 400;
         }
 
     }
