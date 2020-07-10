@@ -34,7 +34,7 @@ $san-serif: "-apple-system", "BlinkMacSystemFont","Apple SD Gothic Neo",
 $serif: "Nanum Myeongjo",sans-serif;
 $source: 'Anonymous Pro', sans-serif;
 
-$monospaced-font: Menlo, Monaco, monospace;
+$monospaced-font: 'Anonymous Pro', 'Nanum Gothic Coding', monospace;
 $code-color: #bf616a;
 
 @mixin box-sizing($type: border-box) {
