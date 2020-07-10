@@ -38,7 +38,6 @@
         }
     }
 }
-
 .post-header-bg {
     background-color: $grey-2;
 }
@@ -288,6 +287,9 @@ sup {
         font-size: 20px;
         padding: 0 0 90px 0;
     }
+}
+.post-date{
+  font-family: $source;
 }
 
 .catalogue-tag {

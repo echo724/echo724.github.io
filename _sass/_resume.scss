@@ -13,23 +13,23 @@
 }
 
 div.resume-info {
-    position: relative;
+    description: relative;
 
     svg {
         width: 24px;
         fill: $blue;
-        position: absolute;
+        des: absolute;
     }
 }
 
 .resume {
 
-    .workplace {
+    .project {
         width: 100%;
         padding: 30px 0;
         border-top: 1px solid rgba(0,0,0,.07);
 
-        .workplace-name {
+        .project-name {
             font-family: $san-serif;
             font-size: 20px;
             font-weight: 700;
@@ -60,7 +60,7 @@ div.resume-info {
         }
     }
 
-    .workplace:last-child {
+    .project:last-child {
         border-bottom: 1px solid rgba(0,0,0,.07);
     }
 
