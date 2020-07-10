@@ -27,6 +27,12 @@ version:
 github:
   repo:         https://github.com/echo724/echo724.github.io
 
+# Plugins
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 # Collections
 collections:
   blog:
@@ -42,3 +48,4 @@ default:
       layout: post
       post-header: false
       project-header: false
+      math: true

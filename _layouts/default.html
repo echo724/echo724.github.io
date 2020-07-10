@@ -2,6 +2,9 @@
 <html lang="en">
 
   {% include head.html %}
+  {% if page.math %}
+  {% include mathjax_support.html %}
+  {% endif %}
 
   <body>
       {% assign current = page.url | downcase | split: '/' %}
