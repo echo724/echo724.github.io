@@ -11,6 +11,9 @@
         <p class="catalogue-type">
             {{ page.type }}
         </p>
+        <p class="catalogue-date">
+            created in {{ page.date | date_to_string }}
+        </p>
         <div class="catalogue-info transition">
             <h1 class="catalogue-title">
                 {{ page.title }}
@@ -23,4 +26,4 @@
             </p>
         </div>
     </a>
-</li>    
+</li>
