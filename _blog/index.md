@@ -4,6 +4,7 @@ title: "Blog"
 description: Ways to become Lazy.
 project-header: true
 header-img: img/about.jpg
+permalink: /blog/
 ---
 <ul class="catalogue">
 {% for post in site.blog %}
