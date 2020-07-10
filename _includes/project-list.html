@@ -1,14 +1,30 @@
 <li class="project transition">
-    {% for project in site.data.experience}
+    {% for second in site.data.experience.second-project %}
     <p class="project-name">
-        {{ project.name }}
+        {{ second.name }}
     </p>
     <div class="work-info">
         <p>
-            {{ project.description }}
+            {{ second.role }}
         </p>
         <p class="work-sub-info">
-            {{ project.date }}
+            {{ second.date }}
+        </p>
+    </div>
+    {% endfor %}
+</li>
+
+<li class="project transition">
+    {% for first in site.data.experience.first-project %}
+    <p class="project-name">
+        {{ first.name }}
+    </p>
+    <div class="work-info">
+        <p>
+            {{ first.role }}
+        </p>
+        <p class="work-sub-info">
+            {{ first.date }}
         </p>
     </div>
     {% endfor %}
