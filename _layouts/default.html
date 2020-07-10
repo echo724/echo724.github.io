@@ -24,12 +24,12 @@
         </div>
       </nav>
 
-    {% if page.layout == "post" %}
-        {% include post-header.html %}
-    {% endif %}
-    {% if page.layout == "project" %}
-        {% include project-header.html %}
-    {% endif %}
+      {% if page.post-header == true %}
+          {% include post-header.html %}
+      {% endif %}
+      {% if page.project-header == true %}
+          {% include project-header.html %}
+      {% endif %}
 
     <main>
       {{ content }}

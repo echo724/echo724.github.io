@@ -33,3 +33,12 @@ collections:
     output: true
   project:
     output: true
+
+default:
+  -
+    scope:
+      path: ""
+    values:
+      layout: post
+      post-header: false
+      project-header: false
