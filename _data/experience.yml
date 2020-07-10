@@ -1,6 +1,6 @@
 first-project:
 - name: Mphyspy
-  description: Python3 library for calculating college level modern physics problems
+  description: College level Modern Physics Problom Solver.
   date: 2018.MAR - 2020.MAY
 second-project:
 - name: Notion Exporter
