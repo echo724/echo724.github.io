@@ -8,7 +8,7 @@ permalink: /blog/
 ---
 
 <div class="catalogue">
-{% for page in site.project %}
+{% for page in site.blog %}
   {% if page.layout == "post" %}
   {% include post-list.html %}
   {% endif %}
