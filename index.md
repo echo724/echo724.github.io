@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Eunchan Cho"
-main: true
 subtitle: Hello, I'm Eunchan Cho, Lazy Developer
 description: Hello. I'm a college student studying in U.S. Computer Science Major and Interested in Physics and Deep Learning
 ---

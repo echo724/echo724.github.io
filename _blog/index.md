@@ -5,9 +5,10 @@ description: Ways to become Lazy.
 project-header: true
 header-img: img/about.jpg
 ---
-
 <ul class="catalogue">
+{% if page.layout == "post" %}
 {% for post in site.blog %}
   {% include post-list.html %}
 {% endfor %}
+{% endif %}
 </ul>
