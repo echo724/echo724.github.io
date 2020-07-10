@@ -13,12 +13,12 @@
 }
 
 div.resume-info {
-    description: relative;
+    position: relative;
 
     svg {
         width: 24px;
         fill: $blue;
-        des: absolute;
+        position: absolute;
     }
 }
 
