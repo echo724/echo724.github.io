@@ -16,7 +16,7 @@ description: Hello. I'm a college student studying in U.S. Computer Science Majo
             </a>
             <div class="underline-mask transition"></div>
             <div class="underline"></div>
-        </div>.
+        </div>
     </h1>
 </section>
 </div>
