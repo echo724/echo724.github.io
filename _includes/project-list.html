@@ -1,5 +1,5 @@
-{% for project in site.data.experience}
 <li class="project transition">
+    {% for project in site.data.experience}
     <p class="project-name">
         {{ project.name }}
     </p>
@@ -11,5 +11,5 @@
             {{ project.date }}
         </p>
     </div>
+    {% endfor %}
 </li>
-{% endfor %}
