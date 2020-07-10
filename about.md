@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Echo"
-subtitle: "Eunchan Cho"
-type: "About"
+subtitle: "I am a developer who creates convenience."
 permalink: /about/
 ---
 

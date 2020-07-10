@@ -7,12 +7,12 @@ description: Hello. I'm a college student studying in U.S. Computer Science Majo
 <div class="intro-animation">
 <section class="explanation">
     <h1 class="intro">
-    Hello, I'm Echo,
+    Hello, I am Echo,
     </h1>
-    <h1 class="intro">A Software Developer who creates programms to become
+    <h1 class="intro">a developer who creates
         <div class="intro-link">
             <a class="transition" href="https://echo724.github.io" target="_blank">
-                Lazy
+                Convenience.
             </a>
             <div class="underline-mask transition"></div>
             <div class="underline"></div>
