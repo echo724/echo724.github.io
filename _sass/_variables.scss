@@ -29,7 +29,8 @@ $break-medium: 900px;
 $break-small: 670px;
 
 // font-family 정의
-$san-serif: "Anonymous Pro", "APPLE SD Gothic Neo", HelveticaNeue, Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
+$san-serif: "-apple-system", "BlinkMacSystemFont","Apple SD Gothic Neo",
+  "Inter", "Spoqa Han Sans", "Segoe UI", Sans-Serif;
 $serif: "Nanum Myeongjo",sans-serif;
 $source: 'Anonymous Pro', sans-serif;
 
