@@ -2,6 +2,7 @@
 layout: default
 title: Selected Projects
 permalink: /project/
+project-header: true
 description: 지금까지 작업한 프로젝트
 ---
 

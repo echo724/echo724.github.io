@@ -8,9 +8,9 @@ permalink: /blog/
 ---
 
 <ul class="catalogue">
-{% for post in site.blog %}
-  {% if post.layout == "post" %}
-  {% include post-list.html %}
+{% for blog_post in site.blog %}
+  {% if blog_post.layout == "post" %}
+    {% include post-list.html %}
   {% endif %}
 {% endfor %}
 </ul>
