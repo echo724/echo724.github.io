@@ -289,11 +289,10 @@ sup {
     }
 }
 .post-date{
+  color: $default-tint;
+  font-size: 16px;
   font-family: $source;
-  font-size: 18px;
-  font-family: $source;
-  font-weight: 600;
-  color: $skyblue
+  font-weight: 400;
 }
 
 .catalogue-tag {
