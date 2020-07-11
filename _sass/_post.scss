@@ -17,7 +17,7 @@
 //project header
 
 .project-header {
-        font-family: $source, $san-serif;
+        font-family: $san-serif, $source ;
         color: $grey-0;
     .header-project-title {
         font-weight: 700;
@@ -230,7 +230,7 @@
         }
 
         h1 {
-            font-family: $source;
+            font-family: $san-serif;
             letter-spacing: 0.01em;
             color: $blue;
             padding-bottom: 7px;
@@ -254,7 +254,7 @@ sup {
 .post-type {
     color: $blue;
     font-size: 18px;
-    font-family: $source;
+    font-family: $san-serif;
     font-weight: 600;
 }
 
@@ -291,12 +291,11 @@ sup {
 .post-date{
   color: $default-tint;
   font-size: 16px;
-  font-family: $source;
-  font-weight: 400;
+  font-family: $san-serif;
 }
 
 .catalogue-tag {
-    font-family: $source;
+    font-family: $san-serif;
     display: inline-block;
     margin-bottom: 2px;
     text-transform: uppercase;

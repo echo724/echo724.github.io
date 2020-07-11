@@ -13,9 +13,6 @@ layout: default
             <div class="post-type">
                 {{ page.type }}
             </div>
-            <div class="post-date">
-                created in {{ page.date | date_to_string }}
-            </div>
         </div>
         <h1 class="post-title">
             {{ page.title }}
@@ -23,6 +20,11 @@ layout: default
         <h2 class="post-subtitle">
             {{ page.subtitle }}
         </h2>
+        {% if page.date %}
+        <div class="post-date">
+            created in {{ page.date | date_to_string }}
+        </div>
+        {% endif %}
     </div>
 <!--포트폴리오 상단 정보-->
     {% if page.portfolio == true %}
