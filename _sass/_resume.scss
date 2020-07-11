@@ -1,6 +1,6 @@
 .second-label {
     margin: 80px 0 20px 0;
-    font-family: $source;
+    font-family: $san-serif;
     font-size: 18px;
     font-weight: 600;
     color: $blue;
@@ -69,7 +69,7 @@ div.resume-info {
             display: inline-block;
             color: $default-tint;
             font-size: 18px;
-            font-family: $source;
+            font-family: $san-serif;
             font-weight: 600;
             margin: 20px 0;
 
@@ -96,7 +96,7 @@ section.skill {
 
     li.skill_name {
         display: inline-block;
-        font-family: $source;
+        font-family: $san-serif;
         padding: 4px 14px;
         border-radius: 100px;
         border: solid 1px $grey-2;
