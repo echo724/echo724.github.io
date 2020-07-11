@@ -13,7 +13,7 @@ section.explanation {
     }
 
     h1.intro {
-        font-family: $source, $san-serif;
+        font-family:  $san-serif,$source;
         font-size: 38px;
         font-weight: bold;
         line-height: 1.17;
@@ -71,7 +71,7 @@ section.explanation {
         background-color: $grey-2;
         margin-top: -4px;
     }
-    
+
     .underline-mask {
         content: '';
         background-color: $blue;

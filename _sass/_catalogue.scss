@@ -14,7 +14,7 @@
     &-type {
         color: $blue;
         font-size: 18px;
-        font-family: $source;
+        font-family: $san-serif;
         font-weight: 600;
         margin-bottom: 10px;
     }
@@ -23,7 +23,7 @@
         display: inline-block;
 
         .catalogue-tag {
-            font-family: $source;
+            font-family: $san-serif;
             display: inline-block;
             margin-bottom: 2px;
             text-transform: uppercase;
@@ -77,9 +77,9 @@
             color: $grey-1;
         }
         p.catalogue-date{
-          color: $default-tint;
+          color: $grey-1;
           font-size: 16px;
-          font-family: $source;
+          font-family: $san-serif;
           font-weight: 400;
         }
 
