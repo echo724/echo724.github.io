@@ -5,11 +5,11 @@ layout: default
 <div class="post">
     <div class="post-info">
         <div class="post-type-tag">
-            {% if page.draft == true %}
+            {%- if page.draft == true -%}
             <span class="catalogue-tag">
                 Coming Soon
             </span>
-            {% endif %}
+            {%- endif -%}
             {% for type in page.type %}
             <span class="catalogue-type">
                 {{ type }}
@@ -23,12 +23,11 @@ layout: default
             {{ page.subtitle }}
         </h2>
         {% if page.date %}
-        <div class="post-date">
+        <h5 class="post-date">
             Created in {{ page.date | date_to_string |upcase }}
-        </div>
+        </h5>
         {% endif %}
     </div>
-
     {%- if page.draft == true -%}
         <div class="catalogue-draft-message">
             <h1>
