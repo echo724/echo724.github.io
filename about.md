@@ -3,9 +3,9 @@ layout: post
 title: "Eunchan Cho"
 subtitle: "A developer who creates convenience."
 permalink: /about/
-header-img: /assets/images/profile.png
 ---
 
+![/assets/images/profile.png](/assets/images/profile.png){width: 100 height: 100}
 `편리함`과 `깔끔함`을 추구하는 `개발자` `조은찬`입니다.
 
 # Info.
