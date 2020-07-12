@@ -22,11 +22,11 @@ layout: default
         <h2 class="post-subtitle">
             {{ page.subtitle }}
         </h2>
-        {% if page.date %}
-        <h5 class="post-date">
+        {%- if page.date -%}
+        <p class="post-date">
             Created in {{ page.date | date_to_string |upcase }}
-        </h5>
-        {% endif %}
+        </p>
+        {%- endif -%}
     </div>
     {%- if page.draft == true -%}
         <div class="catalogue-draft-message">
