@@ -8,9 +8,11 @@
             Coming Soon
         </span>
         {% endif %}
+        {% for type in page.type %}
         <p class="catalogue-type">
-            {{ page.type }}
+            {{ page.type }} 
         </p>
+        {% endfor %}
         <div class="catalogue-info transition">
             <h1 class="catalogue-title">
                 {{ page.title }}
