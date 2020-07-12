@@ -24,7 +24,7 @@ layout: default
         </h2>
         {%- if page.date -%}
         <p class="post-date">
-            Created in {{ page.date | date_to_string |upcase }}
+            Created in {{ page.date | "%d %b %Y" |upcase }}
         </p>
         {%- endif -%}
     </div>
