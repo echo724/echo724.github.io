@@ -12,7 +12,7 @@ Notion-py란 노션의 비공식 API로, 개인 유저가 만든 파이썬 패�
 
 ## Notion-py 구조
 
-```Plain Text
+```
 Notion-py
 └── notion
     ├── __init__.py
