@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Selected Projects
+title: Projects
 permalink: /project/
 project-header: true
-description: 지금까지 작업한 프로젝트
+description: Things try to create Convenient
 ---
 
 <div class="catalogue">
