@@ -6,13 +6,15 @@ layout: default
     <div class="post-info">
         <div class="post-type-tag">
             {% if page.draft == true %}
-            <div class="catalogue-tag">
+            <span class="catalogue-tag">
                 Coming Soon
-            </div>
+            </span>
             {% endif %}
-            <div class="post-type">
-                {{ page.type }}
-            </div>
+            {%- for type in page.type -%}
+            <span class="catalogue-type">
+                {{ type }} &nbsp
+            </span>
+            {%- endfor -%}
         </div>
         <h1 class="post-title">
             {{ page.title }}
