@@ -4,13 +4,9 @@ title: "Echo"
 subtitle: "I am a developer who creates convenience."
 permalink: /about/
 ---
-
+![profile.png](/assets/images/profile.png){: width="400" height = "400"}
 
 `편리함`과 `깔끔함`을 추구하는 `개발자` `조은찬`입니다.
-
-
-![profile.png](/assets/images/profile.png){: width="200" height = "200"}
-
 
 # Info.
 

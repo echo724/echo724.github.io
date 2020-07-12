@@ -12,11 +12,20 @@
   }
 
     &-type {
-        color: $blue;
-        font-size: 18px;
-        font-family: $san-serif;
-        font-weight: 600;
-        margin-bottom: 10px;
+      font-family: $source;
+      display: inline-block;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      padding: 4px 7px;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      border-radius: 8px;
+
+      @media (max-width: $break-medium) {
+          margin: 10px 0;
+      }
     }
 
     &-info {
