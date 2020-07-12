@@ -11,7 +11,7 @@ description: Hello. I'm a college student studying in U.S. Computer Science Majo
     </h1>
     <h1 class="intro">a developer who creates
         <div class="intro-link">
-            <a class="transition" href="https://echo724.github.io" target="_blank">
+            <a class="transition" href="https://github.com/echo724" target="_blank">
                 Convenience.
             </a>
             <div class="underline-mask transition"></div>
