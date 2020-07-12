@@ -29,7 +29,7 @@ layout: default
         {% endif %}
     </div>
 <!--포트폴리오 상단 정보-->
-    {% if page.portfolio == true %}
+    {%- if page.portfolio == true -%}
     <article class="portfolio-info">
         <div>
             <span class="info-title">Role</span>
@@ -49,18 +49,18 @@ layout: default
             <p class="info-medium">{{ page.date }}</p>
         </div>
     </article>
-    {% endif %}
+    {%- endif -%}
 
 <!--draft 일 때-->
 
-    {% if page.draft == true %}
+    {%- if page.draft == true -%}
         <div class="catalogue-draft-message">
             <h1>
                 &#x1F64B; Coming Soon!
             </h1>
             현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
         </div>
-    {% endif %}
+    {%- endif -%}
 
 <!--큐레이션 영역-->
     {{ content }}
