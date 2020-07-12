@@ -23,9 +23,9 @@ layout: default
             {{ page.subtitle }}
         </h2>
         {%- if page.date -%}
-        <p class="post-date">
+        <div class="post-date">
             Created in {{ page.date | date: "%d %b, %Y" }}
-        </p>
+        </div>
         {%- endif -%}
     </div>
     {%- if page.draft == true -%}
