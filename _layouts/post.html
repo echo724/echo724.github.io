@@ -10,11 +10,11 @@ layout: default
                 Coming Soon
             </span>
             {% endif %}
-            {%- for type in page.type -%}
+            {% for type in page.type %}
             <span class="catalogue-type">
-                {{ type }} &nbsp
+                {{ type }}
             </span>
-            {%- endfor -%}
+            {% endfor %}
         </div>
         <h1 class="post-title">
             {{ page.title }}
