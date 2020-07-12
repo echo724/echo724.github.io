@@ -39,25 +39,25 @@ footer>.footer_wrap,
 
 .nav-container {
   li {
-      font-family: $source;
+      font-family: $sansans-serif;
       display: inline-block;
       margin: 0 40px 0 0;
-      
+
       &:last-child {
           margin-right: 0;
       }
-      
+
       @media (max-width: $break-small) {
           margin: 0 24px 0 0;
           font-size: 16px;
       }
-      
+
   }
     li:hover {
           opacity: 0.5;
     }
 }
-    
+
 .active {
     padding-bottom: 6px;
     border-bottom: 2px solid $grey-0;
@@ -78,13 +78,13 @@ a {
 //footer
 
 footer {
-    font-family: $source;
+    font-family: $sansans-serif;
     padding: 36px 0 46px 0;
     background-color: $grey-3;
     color: $default-tint;
     border-top: 1px solid $grey-2;
     border-bottom: 1px solid $grey-2;
-    
+
     .footer_wrap {
         font-style: normal;
         position: relative;
@@ -101,11 +101,11 @@ footer {
                 font-size: 16px;
                 color: $default-tint;
             }
-            
+
             a.email:hover {
                 opacity: .6;
             }
-            
+
             .accounts {
                 margin-top: 36px;
                 a {
