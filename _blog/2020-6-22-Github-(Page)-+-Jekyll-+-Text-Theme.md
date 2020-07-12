@@ -3,6 +3,7 @@ type:
 - Blog
 - Jekyll
 layout: post
+draft: true
 ---
 
 

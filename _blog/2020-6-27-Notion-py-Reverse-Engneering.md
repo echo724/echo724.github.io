@@ -2,6 +2,7 @@
 type:
 - Python
 layout: post
+draft: true
 ---
 
 
