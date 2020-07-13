@@ -57,3 +57,10 @@ default:
       post-header: false
       project-header: false
       math: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - /docs
+  - /vendor
