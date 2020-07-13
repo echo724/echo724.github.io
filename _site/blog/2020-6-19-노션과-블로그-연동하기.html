@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>노션과 블로그 연동하기</title>
+
+  <meta http-equiv="Content-Language" content="ko">
+<link rel="alternate" hreflang="ko" href=" https://www.echo724.github.io/blog/2020-6-19-%EB%85%B8%EC%85%98%EA%B3%BC-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0"/>
+<link rel="alternate" hreflang="en" href="https://www.echo724.github.io/en/blog/2020-6-19-%EB%85%B8%EC%85%98%EA%B3%BC-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0"/>
+
+
+<!-- Post info -->
+
+  <meta property="og:site_name" content="Echo's Blog">
+
+    <meta property="fb:app_id"          content="1607605225977118" />
+    <meta property="og:type"            content="article" />
+    <meta property="og:url"             content="https://www.echo724.github.io/blog/2020-6-19-%EB%85%B8%EC%85%98%EA%B3%BC-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0" />
+
+    <meta property="og:image" content="https://www.echo724.github.io/img/share-img.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- title -->
+    <meta property="og:title" content="노션과 블로그 연동하기">
+
+    <meta name="twitter:title" content="노션과 블로그 연동하기">
+
+    <!-- description -->
+    <meta property="og:description" content="블로그로써, 노션의 장점 노션은 마크다운 기반 웹 노트이다. 웹에다가 정보들을 기록할 수 있기 때문에, 어디서든 작성 가능하고, 공유하기가 쉽다. 특히 블럭을 기반으로 각각의 블럭에 다양한 객체를 넣을 수 있는..."/>
+
+    <meta name="twitter:description" content="블로그로써, 노션의 장점 노션은 마크다운 기반 웹 노트이다. 웹에다가 정보들을 기록할 수 있기 때문에, 어디서든 작성 가능하고, 공유하기가 쉽다. 특히 블럭을 기반으로 각각의 블럭에 다양한 객체를 넣을 수 있는...">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+  <link rel="shortcut icon" href="https://echo724.github.io/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+  <!-- GA -->
+   <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+   <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-38030435-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-8284081281222544",
+      enable_page_level_ads: true
+    });
+  </script>
+  <!-- Beusable for testing -->
+ <script type="text/javascript">
+  (function(w, d, a){
+      w.__beusablerumclient__ = {
+          load : function(src){
+              var b = d.createElement("script");
+              b.src = src; b.async=true; b.type = "text/javascript";
+              d.getElementsByTagName("head")[0].appendChild(b);
+          }
+      };w.__beusablerumclient__.load(a);
+  })(window, document, "//rum.beusable.net/script/b200521e174556u166/a55256893d");
+  </script>
+</head>
+
+  
+
+  <body>
+      
+      <nav class="nav">
+        <div class="nav-container">
+            <ul>
+                <li class="transition">
+                    <a href="/"  class="normal"  class="active">Home</a>
+                </li>
+                <li class="transition">
+                    <a href="/project"  >Project</a>
+                </li>
+                <li class="transition">
+                    <a href="/blog"  class="active" >Blog</a>
+                </li>
+                <li class="transition">
+                    <a href="/about"  >About</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+      
+      
+
+    <main>
+      <div class="post">
+    <div class="post-info">
+        <div class="post-type-tag">
+            <span class="catalogue-type">
+                Blog
+            </span>
+            
+        </div>
+        <h1 class="post-title">
+            노션과 블로그 연동하기
+        </h1>
+        <h2 class="post-subtitle">
+            노션을 블로그랑 연결하기
+        </h2>
+    </div><!--큐레이션 영역-->
+    <h1 id="블로그로써-노션의-장점">블로그로써, 노션의 장점</h1>
+
+<p>노션은 마크다운 기반 웹 노트이다. 웹에다가 정보들을 기록할 수 있기 때문에, 어디서든 작성 가능하고, 공유하기가 쉽다. 특히 블럭을 기반으로 각각의 블럭에 다양한 객체를 넣을 수 있는 방식 때문에, 정리하고, 꾸미고, 수정하는 과정이 매우 쉽다. 따라서 노션에서 블로그 포스트를 쓸때, 쉽게 작성하고 그것을 공유하기 쉬운 장점이 있다.</p>
+
+<h1 id="블로그로써-노션의-문제점">블로그로써, 노션의 문제점</h1>
+
+<h2 id="검색-유입이-잘-안된다">검색 유입이 잘 안된다.</h2>
+
+<p>구글에 검색을 직접 해보면 알지만, 아무리 검색 엔진에 검색이 허용 되도록 설정해도, 구글에 뜨지 않는다. 뜨는 건 미디움, 깃헙 블로그, velog 등 블로그를 목적으로한 사이트들 밖에 없다. 그렇기 때문에, 개인 홈페이지가 아니고서야, 블로그로써는 노션이 조금은 부족하다.</p>
+
+<h2 id="광고-통계-내기가-힘들다">광고, 통계 내기가 힘들다.</h2>
+
+<p>찾아보니까, 노션 페이지에 이미지 링크를 걸어 그 것으로 개별 페이지당 방문자 통계를 낼 수 있는 것을 보았다. 하지만, 전체 통계를 내기도 힘들고, 광고는 더더욱 힘들다.</p>
+
+<p>이러한 문제점들 때문에, 블로그를 위한 다른 플랫폼의 필요성을 느끼게 되었고, 그것을 탐색해볼 예정이다.</p>
+
+<h1 id="해결방안">해결방안</h1>
+
+<p>우선은, 노션은 어떻게든 다른 블로그 플랫폼과 연동을 하고 싶다. 왜냐하면, 노션에 있는 개인 공간의 연동성과 글을 쉽게 쓸 수 있는 편리함 때문이다. ( 그리고 필자는 통일성을 극도로 좋아하기 때문에, 어떻게든 기존에 쓰는 툴을 그대로 이용하고 싶다. )</p>
+
+<p>그래서 생각해낸 방법은 노션을 글을 쓰는 툴로써 이용하고, 글을 블로그에 배포하는 형식으로 블로그를 운영 해볼까 한다.</p>
+<div class="post-date">
+        Created in 19 Jun, 2020
+    </div></div>
+
+
+      
+            
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.10&appId=1607605225977118';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+    t._e = [];
+    t.ready = function(f) {
+        t._e.push(f);
+    };
+    return t;
+}(document, "script", "twitter-wjs"));</script>
+<section class="share transition">
+    <div class="share-twitter">
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large">Tweet</a>
+    </div>
+    <div class="share-facebook">
+        <div class="fb-share-button" data-href="https://www.echo724.github.io/blog/2020-6-19-%EB%85%B8%EC%85%98%EA%B3%BC-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+            <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">공유하기</a>
+        </div>
+    </div>
+</section>
+      
+
+      </main>
+
+      <footer>
+    <address class="footer_wrap">
+        <div class="information">
+            <div class="myname">
+                Eunchan Cho
+            </div>
+            <a href="mailto:eunchan1001@gmail.com" class="email">
+                eunchan1001@gmail.com
+            </a>
+            <div class="accounts">
+                <a href="http://github.com/echo724" target="_blank" class="transition">
+                    <svg viewBox="0 0 32.6 31.8">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3,0C7.3,0,0,7.3,0,16.3c0,7.2,4.7,13.3,11.1,15.5
+                    c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1
+                    c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4
+                    C7.4,10.7,6.8,9,7.7,6.8c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7
+                    c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5
+                    c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C32.6,7.3,25.3,0,16.3,0z"></path>
+                    </svg>
+                </a>
+                <a href="http://www.linkedin.com/in/eunchan-cho-382001184/" target="_blank" class="transition">
+                    <svg viewBox="0 0 38.3 38.3">
+                        <g>
+                        <rect x="0.8" y="12.8" width="7.9" height="25.5"></rect>
+                        <ellipse cx="4.7" cy="4.7" rx="4.7" ry="4.7"></ellipse>
+                        <path d="M21.3,24.9c0-3.6,1.7-5.7,4.8-5.7c2.9,0,4.3,2.1,4.3,5.7c0,3.7,0,13.4,0,13.4h7.9c0,0,0-9.3,0-16.2
+                        c0-6.8-3.9-10.1-9.3-10.1s-7.7,4.2-7.7,4.2v-3.4h-7.6v25.5h7.6C21.3,38.3,21.3,28.8,21.3,24.9z"></path>
+                            </g>
+                    </svg>
+                </a>
+                <a href="http://instagram.com/_echo_724_" target="_blank" class="transition">
+                    <svg viewBox="0 0 40.2 40.3">
+                    <g>
+                    <path d="M20.2,3.6c5.4,0,6,0,8.2,0.1c2,0.1,3,0.4,3.7,0.7C33,4.8,33.7,5.3,34.4,6s1.1,1.4,1.5,2.3
+                    c0.3,0.7,0.6,1.8,0.7,3.7c0.1,2.1,0.1,2.8,0.1,8.2s0,6-0.1,8.2c-0.1,2-0.4,3-0.7,3.7c-0.4,0.9-0.8,1.6-1.5,2.3s-1.4,1.1-2.3,1.5
+                    c-0.7,0.3-1.8,0.6-3.7,0.7c-2.1,0.1-2.8,0.1-8.2,0.1s-6,0-8.2-0.1c-2-0.1-3-0.4-3.7-0.7c-0.9-0.4-1.6-0.8-2.3-1.5S4.9,33,4.5,32.1
+                    c-0.3-0.7-0.6-1.8-0.7-3.7c-0.1-2.1-0.1-2.8-0.1-8.2s0-6,0.1-8.2c0.1-2,0.4-3,0.7-3.7C4.8,7.3,5.3,6.7,6,6s1.4-1.1,2.3-1.5
+                    C9,4.2,10.1,3.8,12,3.8C14.2,3.7,14.8,3.6,20.2,3.6 M20.2,0c-5.5,0-6.2,0-8.3,0.1C9.7,0.2,8.2,0.6,7,1.1C5.6,1.6,4.5,2.3,3.4,3.4
+                    S1.6,5.6,1.1,7c-0.5,1.3-0.8,2.8-0.9,4.9C0,14,0,14.7,0,20.2s0,6.2,0.1,8.3s0.4,3.6,0.9,4.9c0.5,1.3,1.2,2.5,2.3,3.6
+                    s2.2,1.8,3.6,2.3c1.3,0.5,2.8,0.8,4.9,0.9c2.2,0.1,2.8,0.1,8.3,0.1s6.2,0,8.3-0.1s3.6-0.4,4.9-0.9c1.3-0.5,2.5-1.2,3.6-2.3
+                    s1.8-2.2,2.3-3.6c0.5-1.3,0.8-2.8,0.9-4.9c0.1-2.2,0.1-2.8,0.1-8.3s0-6.2-0.1-8.3S39.7,8.3,39.2,7S38,4.5,36.9,3.4
+                    s-2.2-1.8-3.6-2.3c-1.3-0.5-2.8-0.8-4.9-0.9C26.3,0,25.7,0,20.2,0L20.2,0L20.2,0z"></path>
+                    <path d="M20.2,9.8c-5.7,0-10.4,4.6-10.4,10.4s4.6,10.4,10.4,10.4S30.6,26,30.6,20.2S25.9,9.8,20.2,9.8L20.2,9.8z
+                    M20.2,26.9c-3.7,0-6.7-3-6.7-6.7s3-6.7,6.7-6.7s6.7,3,6.7,6.7C26.9,23.9,23.9,26.9,20.2,26.9L20.2,26.9z"></path>
+                    <path d="M33.4,9.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4s1-2.4,2.3-2.4C32.2,7,33.4,8.1,33.4,9.4L33.4,9.4z"></path>
+                    </g>
+                </svg>
+                </a>
+                <a href="http://twitter.com/Minicar60357228" target="_blank" class="transition">
+                    <svg viewBox="0 0 40.7 33.1">
+                <path d="M0,29.3c3.7,2.4,8.1,3.8,12.8,3.8c15.5,0,24.3-13.1,23.7-24.8c1.6-1.2,3-2.6,4.2-4.3
+                c-1.5,0.7-3.1,1.1-4.8,1.3c1.7-1,3-2.7,3.7-4.6c-1.6,1-3.4,1.7-5.3,2C32.7,1,30.6,0,28.2,0c-5.4,0-9.4,5-8.1,10.3
+                C13.1,9.9,7,6.6,2.8,1.5c-2.2,3.8-1.1,8.7,2.6,11.1c-1.4,0-2.7-0.4-3.8-1c-0.1,3.9,2.7,7.5,6.7,8.3c-1.2,0.3-2.5,0.4-3.8,0.1
+                c1.1,3.3,4.1,5.7,7.8,5.8C8.9,28.6,4.4,29.8,0,29.3z"></path>
+                </svg>
+                </a>
+                <a href="http://facebook.com/eunchan1001" target="_blank" class="transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/>
+                  </svg>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>
+                &copy; Echo. <time datetime="2020-07-13 13:11:56 +0900">2020</time>
+            </span>
+        </div>
+    </address>
+</footer>
+
+
+  </body>
+</html>

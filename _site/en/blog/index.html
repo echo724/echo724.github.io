@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Blog</title>
+
+  <meta http-equiv="Content-Language" content="en">
+<link rel="alternate" hreflang="ko" href=" https://www.echo724.github.io/blog/"/>
+<link rel="alternate" hreflang="en" href="https://www.echo724.github.io/en/blog/"/>
+
+
+<!-- Post info -->
+
+  <meta property="og:site_name" content="Echo's Blog">
+
+    <meta property="fb:app_id"          content="1607605225977118" />
+    <meta property="og:type"            content="article" />
+    <meta property="og:url"             content="https://www.echo724.github.io/blog/" />
+
+    <meta property="og:image" content="https://www.echo724.github.io/blog/">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- title -->
+    <meta property="og:title" content="Blog">
+
+    <meta name="twitter:title" content="Blog">
+
+    <!-- description -->
+    <meta property="og:description" content="   Shortcuts   API    Openapi를 이용해 단축어에서 미세먼지 알람 만들기 1편   단축어로 간단하게..."/>
+
+    <meta name="twitter:description" content="   Shortcuts   API    Openapi를 이용해 단축어에서 미세먼지 알람 만들기 1편   단축어로 간단하게...">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/en/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+  <link rel="shortcut icon" href="https://echo724.github.io/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+  <!-- GA -->
+   <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+
+   <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-38030435-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-8284081281222544",
+      enable_page_level_ads: true
+    });
+  </script>
+  <!-- Beusable for testing -->
+ <script type="text/javascript">
+  (function(w, d, a){
+      w.__beusablerumclient__ = {
+          load : function(src){
+              var b = d.createElement("script");
+              b.src = src; b.async=true; b.type = "text/javascript";
+              d.getElementsByTagName("head")[0].appendChild(b);
+          }
+      };w.__beusablerumclient__.load(a);
+  })(window, document, "//rum.beusable.net/script/b200521e174556u166/a55256893d");
+  </script>
+</head>
+
+  
+
+  <body>
+      
+      <nav class="nav">
+        <div class="nav-container">
+            <ul>
+                <li class="transition">
+                    <a href="/en/"  class="normal"  class="active">Home</a>
+                </li>
+                <li class="transition">
+                    <a href="/en/project"  >Project</a>
+                </li>
+                <li class="transition">
+                    <a href="/en/blog"  class="active" >Blog</a>
+                </li>
+                <li class="transition">
+                    <a href="/en/about"  >About</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+      
+      
+          <div class="project-header loading-animation">
+    <div class="container">
+        <div>
+            <div class="header-project-title">
+                Blog
+            </div>
+            <div class="header-project-des">
+                Ways to become Convenient.
+            </div>
+        </div>
+    </div>
+</div>
+      
+
+    <main>
+      <div class="catalogue"><li class="catalogue-item">
+    <a href="/en/blog/2020-7-1-OpenAPI%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EB%8B%A8%EC%B6%95%EC%96%B4%EC%97%90%EC%84%9C-%EB%AF%B8%EC%84%B8%EB%A8%BC%EC%A7%80-%EC%95%8C%EB%9E%8C-%EB%A7%8C%EB%93%A4%EA%B8%B0---1%ED%8E%B8">
+        
+        
+        
+        <span class="catalogue-type">
+            Shortcuts
+        </span>
+        
+        <span class="catalogue-type">
+            API
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Openapi를 이용해 단축어에서 미세먼지 알람 만들기   1편
+            </h1>
+            <p class="catalogue-sub">
+                단축어로 간단하게 아이폰에서 미세먼지 확인하기
+            </p>
+            <p class="catalogue-body">
+                원하는 데이터의 API 찾기 공공데이터 포털 이곳에는 정부의 다양한 데이터들이 있고, 각 데이터들을 요청할 수 있는 API가 제공 되어있다. 오늘 예제로 사용해볼...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 01 Jul, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/en/blog/2020-6-27-Notion-py-Reverse-Engneering">
+        
+        
+        <span class="catalogue-tag">
+            Coming Soon
+        </span>
+        
+        
+        <span class="catalogue-type">
+            Python
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Notion Py Reverse Engneering
+            </h1>
+            <p class="catalogue-sub">
+                Notion-py를 분석해보자!
+            </p>
+            <p class="catalogue-body">
+                Notion-py Notion-py란 노션의 비공식 API로, 개인 유저가 만든 파이썬 패키지 이다. Notion-py를 이용해, 파이썬으로 노션에서 블럭을 생성, 삭제 등 다양한 작업을 할 수...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 27 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/blog/2020-6-22-Github-(Page)-+-Jekyll-+-Text-Theme">
+        
+        
+        <span class="catalogue-tag">
+            Coming Soon
+        </span>
+        
+        
+        <span class="catalogue-type">
+            Blog
+        </span>
+        
+        <span class="catalogue-type">
+            Jekyll
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Github (page) + Jekyll + Text Theme
+            </h1>
+            <p class="catalogue-sub">
+                Github Page과 Jekyll의 만남
+            </p>
+            <p class="catalogue-body">
+                Github (page) - 정리필요 Git repository → 블로그의 모든 소스들이 깃 저장소로 들어간다. Git page → 이 소스(Jekyll)들을 모아 웹으로 퍼블리싱 해준다. Jekyll...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 22 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/en/blog/2020-6-19-%EB%85%B8%EC%85%98%EA%B3%BC-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0">
+        
+        
+        
+        <span class="catalogue-type">
+            Blog
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                노션과 블로그 연동하기
+            </h1>
+            <p class="catalogue-sub">
+                노션을 블로그랑 연결하기
+            </p>
+            <p class="catalogue-body">
+                블로그로써, 노션의 장점 노션은 마크다운 기반 웹 노트이다. 웹에다가 정보들을 기록할 수 있기 때문에, 어디서든 작성 가능하고, 공유하기가 쉽다. 특히 블럭을 기반으로 각각의...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 19 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/en/blog/2020-6-18-Jupyter-%ED%85%8C%EB%A7%88-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0">
+        
+        
+        
+        <span class="catalogue-type">
+            Theme
+        </span>
+        
+        <span class="catalogue-type">
+            jupyter
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Jupyter 테마 사용하기
+            </h1>
+            <p class="catalogue-sub">
+                주피터를 내맘대로 꾸며보자
+            </p>
+            <p class="catalogue-body">
+                주피터 소개 주피터 노트북은 인터렉티브 컴퓨팅을 위해 개발된 서비스로, Ipython, Markdown 등을 하나의 셀에 작성 시켜 실행시킬 수 있다. 마치 코드가 담긴 노트를...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 18 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/en/blog/2020-6-10-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%8B%9C%EC%9E%91">
+        
+        
+        
+        <span class="catalogue-type">
+            Blog
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                블로그 시작
+            </h1>
+            <p class="catalogue-sub">
+                블로그의 필요성
+            </p>
+            <p class="catalogue-body">
+                블로그를 만드는 이유:   생각을 정리할 공간이 필요하다   내가 어떤 사람인지 보여주기 위한 공간.   반복적인 검색을 하지 않기...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 10 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+
+</div>
+
+
+      
+
+      </main>
+
+      <footer>
+    <address class="footer_wrap">
+        <div class="information">
+            <div class="myname">
+                Eunchan Cho
+            </div>
+            <a href="mailto:eunchan1001@gmail.com" class="email">
+                eunchan1001@gmail.com
+            </a>
+            <div class="accounts">
+                <a href="http://github.com/echo724" target="_blank" class="transition">
+                    <svg viewBox="0 0 32.6 31.8">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3,0C7.3,0,0,7.3,0,16.3c0,7.2,4.7,13.3,11.1,15.5
+                    c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1
+                    c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4
+                    C7.4,10.7,6.8,9,7.7,6.8c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7
+                    c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5
+                    c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C32.6,7.3,25.3,0,16.3,0z"></path>
+                    </svg>
+                </a>
+                <a href="http://www.linkedin.com/in/eunchan-cho-382001184/" target="_blank" class="transition">
+                    <svg viewBox="0 0 38.3 38.3">
+                        <g>
+                        <rect x="0.8" y="12.8" width="7.9" height="25.5"></rect>
+                        <ellipse cx="4.7" cy="4.7" rx="4.7" ry="4.7"></ellipse>
+                        <path d="M21.3,24.9c0-3.6,1.7-5.7,4.8-5.7c2.9,0,4.3,2.1,4.3,5.7c0,3.7,0,13.4,0,13.4h7.9c0,0,0-9.3,0-16.2
+                        c0-6.8-3.9-10.1-9.3-10.1s-7.7,4.2-7.7,4.2v-3.4h-7.6v25.5h7.6C21.3,38.3,21.3,28.8,21.3,24.9z"></path>
+                            </g>
+                    </svg>
+                </a>
+                <a href="http://instagram.com/_echo_724_" target="_blank" class="transition">
+                    <svg viewBox="0 0 40.2 40.3">
+                    <g>
+                    <path d="M20.2,3.6c5.4,0,6,0,8.2,0.1c2,0.1,3,0.4,3.7,0.7C33,4.8,33.7,5.3,34.4,6s1.1,1.4,1.5,2.3
+                    c0.3,0.7,0.6,1.8,0.7,3.7c0.1,2.1,0.1,2.8,0.1,8.2s0,6-0.1,8.2c-0.1,2-0.4,3-0.7,3.7c-0.4,0.9-0.8,1.6-1.5,2.3s-1.4,1.1-2.3,1.5
+                    c-0.7,0.3-1.8,0.6-3.7,0.7c-2.1,0.1-2.8,0.1-8.2,0.1s-6,0-8.2-0.1c-2-0.1-3-0.4-3.7-0.7c-0.9-0.4-1.6-0.8-2.3-1.5S4.9,33,4.5,32.1
+                    c-0.3-0.7-0.6-1.8-0.7-3.7c-0.1-2.1-0.1-2.8-0.1-8.2s0-6,0.1-8.2c0.1-2,0.4-3,0.7-3.7C4.8,7.3,5.3,6.7,6,6s1.4-1.1,2.3-1.5
+                    C9,4.2,10.1,3.8,12,3.8C14.2,3.7,14.8,3.6,20.2,3.6 M20.2,0c-5.5,0-6.2,0-8.3,0.1C9.7,0.2,8.2,0.6,7,1.1C5.6,1.6,4.5,2.3,3.4,3.4
+                    S1.6,5.6,1.1,7c-0.5,1.3-0.8,2.8-0.9,4.9C0,14,0,14.7,0,20.2s0,6.2,0.1,8.3s0.4,3.6,0.9,4.9c0.5,1.3,1.2,2.5,2.3,3.6
+                    s2.2,1.8,3.6,2.3c1.3,0.5,2.8,0.8,4.9,0.9c2.2,0.1,2.8,0.1,8.3,0.1s6.2,0,8.3-0.1s3.6-0.4,4.9-0.9c1.3-0.5,2.5-1.2,3.6-2.3
+                    s1.8-2.2,2.3-3.6c0.5-1.3,0.8-2.8,0.9-4.9c0.1-2.2,0.1-2.8,0.1-8.3s0-6.2-0.1-8.3S39.7,8.3,39.2,7S38,4.5,36.9,3.4
+                    s-2.2-1.8-3.6-2.3c-1.3-0.5-2.8-0.8-4.9-0.9C26.3,0,25.7,0,20.2,0L20.2,0L20.2,0z"></path>
+                    <path d="M20.2,9.8c-5.7,0-10.4,4.6-10.4,10.4s4.6,10.4,10.4,10.4S30.6,26,30.6,20.2S25.9,9.8,20.2,9.8L20.2,9.8z
+                    M20.2,26.9c-3.7,0-6.7-3-6.7-6.7s3-6.7,6.7-6.7s6.7,3,6.7,6.7C26.9,23.9,23.9,26.9,20.2,26.9L20.2,26.9z"></path>
+                    <path d="M33.4,9.4c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4s1-2.4,2.3-2.4C32.2,7,33.4,8.1,33.4,9.4L33.4,9.4z"></path>
+                    </g>
+                </svg>
+                </a>
+                <a href="http://twitter.com/Minicar60357228" target="_blank" class="transition">
+                    <svg viewBox="0 0 40.7 33.1">
+                <path d="M0,29.3c3.7,2.4,8.1,3.8,12.8,3.8c15.5,0,24.3-13.1,23.7-24.8c1.6-1.2,3-2.6,4.2-4.3
+                c-1.5,0.7-3.1,1.1-4.8,1.3c1.7-1,3-2.7,3.7-4.6c-1.6,1-3.4,1.7-5.3,2C32.7,1,30.6,0,28.2,0c-5.4,0-9.4,5-8.1,10.3
+                C13.1,9.9,7,6.6,2.8,1.5c-2.2,3.8-1.1,8.7,2.6,11.1c-1.4,0-2.7-0.4-3.8-1c-0.1,3.9,2.7,7.5,6.7,8.3c-1.2,0.3-2.5,0.4-3.8,0.1
+                c1.1,3.3,4.1,5.7,7.8,5.8C8.9,28.6,4.4,29.8,0,29.3z"></path>
+                </svg>
+                </a>
+                <a href="http://facebook.com/eunchan1001" target="_blank" class="transition">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/>
+                  </svg>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <span>
+                &copy; Echo. <time datetime="2020-07-13 13:11:56 +0900">2020</time>
+            </span>
+        </div>
+    </address>
+</footer>
+
+
+  </body>
+</html>
