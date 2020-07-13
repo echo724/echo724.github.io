@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="post">
+    <div class="post-info">
+        <div class="post-type-tag">
+            {%- if page.draft == true -%}
+            <span class="catalogue-tag">
+                Coming Soon
+            </span>
+            {%- endif -%}
+            {% for type in page.type %}
+            <span class="catalogue-type">
+                {{ type }}
+            </span>
+            {% endfor %}
+        </div>
+        <h1 class="post-title">
+            {{ page.title }}
+        </h1>
+        <h2 class="post-subtitle">
+            {{ page.subtitle }}
+        </h2>
+    </div>
+    {%- if page.draft == true -%}
+        <div class="catalogue-draft-message">
+            <h1>
+                &#x1F64B; Coming Soon!
+            </h1>
+            현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
+        </div>
+    {%- endif -%}
+<!--큐레이션 영역-->
+    {{ content }}
+    
+    {%- if page.date -%}
+    <div class="post-date">
+        Created in {{ page.date | date: "%d %b, %Y" }}
+    </div>
+    {%- endif -%}
+</div>

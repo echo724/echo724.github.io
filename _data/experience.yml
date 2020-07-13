@@ -1,0 +1,8 @@
+first-project:
+- name: Mphyspy
+  description: College level Modern Physics Problom Solver.
+  date: 2018.MAR - 2020.MAY
+second-project:
+- name: Notion Exporter
+  description: Export notion page to markdown.
+  date: 2020.JUNE - 2020.JULY

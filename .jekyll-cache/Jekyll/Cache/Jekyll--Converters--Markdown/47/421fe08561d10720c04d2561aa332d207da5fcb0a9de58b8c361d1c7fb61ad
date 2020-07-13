@@ -1,0 +1,179 @@
+I"q<div class="catalogue"><li class="catalogue-item">
+    <a href="/blog/2020-7-1-OpenAPI%E1%84%85%E1%85%B3%E1%86%AF-%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A2-%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%8B%E1%85%A5%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5-%E1%84%86%E1%85%B5%E1%84%89%E1%85%A6%E1%84%86%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%B5-%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%85%E1%85%A1%E1%86%B7-%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5---1%E1%84%91%E1%85%A7%E1%86%AB">
+        
+        
+        
+        <span class="catalogue-type">
+            Shortcuts
+        </span>
+        
+        <span class="catalogue-type">
+            API
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Openapi를 이용해 단축어에서 미세먼지 알람 만들기   1편
+            </h1>
+            <p class="catalogue-sub">
+                단축어로 간단하게 아이폰에서 미세먼지 확인하기
+            </p>
+            <p class="catalogue-body">
+                원하는 데이터의 API 찾기 공공데이터 포털 이곳에는 정부의 다양한 데이터들이 있고, 각 데이터들을 요청할 수 있는 API가 제공 되어있다. 오늘 예제로 사용해볼...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 01 Jul, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/blog/2020-6-27-Notion-py-Reverse-Engneering">
+        
+        
+        <span class="catalogue-tag">
+            Coming Soon
+        </span>
+        
+        
+        <span class="catalogue-type">
+            Python
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Notion Py Reverse Engneering
+            </h1>
+            <p class="catalogue-sub">
+                Notion-py를 분석해보자!
+            </p>
+            <p class="catalogue-body">
+                Notion-py Notion-py란 노션의 비공식 API로, 개인 유저가 만든 파이썬 패키지 이다. Notion-py를 이용해, 파이썬으로 노션에서 블럭을 생성, 삭제 등 다양한 작업을 할 수...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 27 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/blog/2020-6-22-Github-(Page)-+-Jekyll-+-Text-Theme">
+        
+        
+        <span class="catalogue-tag">
+            Coming Soon
+        </span>
+        
+        
+        <span class="catalogue-type">
+            Blog
+        </span>
+        
+        <span class="catalogue-type">
+            Jekyll
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Github (page) + Jekyll + Text Theme
+            </h1>
+            <p class="catalogue-sub">
+                Github Page과 Jekyll의 만남
+            </p>
+            <p class="catalogue-body">
+                Github (page) - 정리필요 Git repository → 블로그의 모든 소스들이 깃 저장소로 들어간다. Git page → 이 소스(Jekyll)들을 모아 웹으로 퍼블리싱 해준다. Jekyll...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 22 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/blog/2020-6-19-%E1%84%82%E1%85%A9%E1%84%89%E1%85%A7%E1%86%AB%E1%84%80%E1%85%AA-%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3-%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5">
+        
+        
+        
+        <span class="catalogue-type">
+            Blog
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                노션과 블로그 연동하기
+            </h1>
+            <p class="catalogue-sub">
+                노션을 블로그랑 연결하기
+            </p>
+            <p class="catalogue-body">
+                블로그로써, 노션의 장점 노션은 마크다운 기반 웹 노트이다. 웹에다가 정보들을 기록할 수 있기 때문에, 어디서든 작성 가능하고, 공유하기가 쉽다. 특히 블럭을 기반으로 각각의...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 19 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/blog/2020-6-18-Jupyter-%E1%84%90%E1%85%A6%E1%84%86%E1%85%A1-%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5">
+        
+        
+        
+        <span class="catalogue-type">
+            Theme
+        </span>
+        
+        <span class="catalogue-type">
+            jupyter
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                Jupyter 테마 사용하기
+            </h1>
+            <p class="catalogue-sub">
+                주피터를 내맘대로 꾸며보자
+            </p>
+            <p class="catalogue-body">
+                주피터 소개 주피터 노트북은 인터렉티브 컴퓨팅을 위해 개발된 서비스로, Ipython, Markdown 등을 하나의 셀에 작성 시켜 실행시킬 수 있다. 마치 코드가 담긴 노트를...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 18 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+<li class="catalogue-item">
+    <a href="/blog/2020-6-10-%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3-%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8">
+        
+        
+        
+        <span class="catalogue-type">
+            Blog
+        </span>
+        
+        <div class="catalogue-info transition">
+            <h1 class="catalogue-title">
+                블로그 시작
+            </h1>
+            <p class="catalogue-sub">
+                블로그의 필요성
+            </p>
+            <p class="catalogue-body">
+                블로그를 만드는 이유:   생각을 정리할 공간이 필요하다   내가 어떤 사람인지 보여주기 위한 공간.   반복적인 검색을 하지 않기...
+            </p>
+            <br />
+            <p class="catalogue-date">
+                Created in 10 Jun, 2020
+            </p>
+        </div>
+    </a>
+</li>
+
+</div>
+:ET
