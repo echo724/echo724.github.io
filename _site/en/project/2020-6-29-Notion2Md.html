@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Eunchan Cho</title>
+  <title>Notion2md</title>
 
-  <meta http-equiv="Content-Language" content="ko">
-<link rel="alternate" hreflang="ko" href=" https://www.echo724.github.io/about/"/>
-<link rel="alternate" hreflang="en" href="https://www.echo724.github.io/en/about/"/>
+  <meta http-equiv="Content-Language" content="en">
+<link rel="alternate" hreflang="ko" href=" https://www.echo724.github.io/project/2020-6-29-Notion2Md"/>
+<link rel="alternate" hreflang="en" href="https://www.echo724.github.io/en/project/2020-6-29-Notion2Md"/>
 
 
 <!-- Post info -->
@@ -18,24 +18,24 @@
 
     <meta property="fb:app_id"          content="1607605225977118" />
     <meta property="og:type"            content="article" />
-    <meta property="og:url"             content="https://www.echo724.github.io/about/" />
+    <meta property="og:url"             content="https://www.echo724.github.io/project/2020-6-29-Notion2Md" />
 
     <meta property="og:image" content="https://www.echo724.github.io/img/share-img.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
 
     <!-- title -->
-    <meta property="og:title" content="Eunchan Cho">
+    <meta property="og:title" content="Notion2md">
 
-    <meta name="twitter:title" content="Eunchan Cho">
+    <meta name="twitter:title" content="Notion2md">
 
     <!-- description -->
-    <meta property="og:description" content="![/assets/images/profile.png](/assets/images/profile.png){: width: "100" height: "100"} `편리함`과 `깔끔함`을 추구하는 `개발자` `조은찬`입니다. # Info. Email: [eunchan1001@gmail.com](mailto:eunchan1001@gmail.com) *** # Channels. [Minicar's_Blog](https://www.notion.so/minicar/Minicar-s_Blog-1271c8a4ce8248ff855d162d46e3524e) [Facebook](https://www.facebook.com/eunchan1001/) [eunchan1001 - Overview](https://github.com/eunchan1001) [Profile of eunchan1001](https://pypi.org/user/eunchan1001/) *** # Intro. 미국에서 컴퓨터..."/>
+    <meta property="og:description" content="Notion Markdown Exporter This is Notion Markdown Exporter using notion-py notion2md will export your notion.so page to markdown formatted file. Installation <div..."/>
 
-    <meta name="twitter:description" content="![/assets/images/profile.png](/assets/images/profile.png){: width: "100" height: "100"} `편리함`과 `깔끔함`을 추구하는 `개발자` `조은찬`입니다. # Info. Email: [eunchan1001@gmail.com](mailto:eunchan1001@gmail.com) *** # Channels. [Minicar's_Blog](https://www.notion.so/minicar/Minicar-s_Blog-1271c8a4ce8248ff855d162d46e3524e) [Facebook](https://www.facebook.com/eunchan1001/) [eunchan1001 - Overview](https://github.com/eunchan1001) [Profile of eunchan1001](https://pypi.org/user/eunchan1001/) *** # Intro. 미국에서 컴퓨터...">
+    <meta name="twitter:description" content="Notion Markdown Exporter This is Notion Markdown Exporter using notion-py notion2md will export your notion.so page to markdown formatted file. Installation <div...">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/en/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
   <link rel="shortcut icon" href="https://echo724.github.io/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -86,16 +86,16 @@
         <div class="nav-container">
             <ul>
                 <li class="transition">
-                    <a href="/"  class="normal"  class="active">Home</a>
+                    <a href="/en/"  class="normal"  class="active">Home</a>
                 </li>
                 <li class="transition">
-                    <a href="/project"  >Project</a>
+                    <a href="/en/project"  class="active" >Project</a>
                 </li>
                 <li class="transition">
-                    <a href="/blog"  >Blog</a>
+                    <a href="/en/blog"  >Blog</a>
                 </li>
                 <li class="transition">
-                    <a href="/about"  class="active" >About</a>
+                    <a href="/en/about"  >About</a>
                 </li>
             </ul>
         </div>
@@ -110,82 +110,70 @@
         <div class="post-type-tag">
         </div>
         <h1 class="post-title">
-            Eunchan Cho
+            Notion2md
         </h1>
         <h2 class="post-subtitle">
-            A developer who creates convenience.
+            Export Notion page to Markdown.
         </h2>
     </div><!--큐레이션 영역-->
-    <p><img src="/assets/images/profile.png" alt="/assets/images/profile.png" />
-<code class="language-plaintext highlighter-rouge">편리함</code>과 <code class="language-plaintext highlighter-rouge">깔끔함</code>을 추구하는 <code class="language-plaintext highlighter-rouge">개발자</code> <code class="language-plaintext highlighter-rouge">조은찬</code>입니다.</p>
+    <h1 id="notion-markdown-exporter">Notion Markdown Exporter</h1>
 
-<h1 id="info">Info.</h1>
+<p>This is Notion Markdown Exporter using <a href="https://github.com/jamalex/notion-py"><code class="language-plaintext highlighter-rouge">notion-py</code></a></p>
 
-<p>Email: <a href="mailto:eunchan1001@gmail.com">eunchan1001@gmail.com</a></p>
+<p>notion2md will export your <a href="http://notion.so">notion.so</a> page to markdown formatted file.</p>
 
-<hr />
+<h2 id="installation">Installation</h2>
 
-<h1 id="channels">Channels.</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install notion2md
+</code></pre></div></div>
 
-<p><a href="https://www.notion.so/minicar/Minicar-s_Blog-1271c8a4ce8248ff855d162d46e3524e">Minicar’s_Blog</a></p>
+<h2 id="usage-from-cli">Usage from CLI</h2>
 
-<p><a href="https://www.facebook.com/eunchan1001/">Facebook</a></p>
+<p>In your Bash/Zsh terminal,</p>
 
-<p><a href="https://github.com/eunchan1001">eunchan1001 - Overview</a></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$python3 -m notion2md
+#Markdown file name: &lt;output file name(without .md)&gt;
+#Token_v2: &lt;your token_v2 on notion.so&gt;
+#Notion Page Url: &lt;your notion page to export&gt;
+</code></pre></div></div>
 
-<p><a href="https://pypi.org/user/eunchan1001/">Profile of eunchan1001</a></p>
+<p>This will make <code class="language-plaintext highlighter-rouge">.md</code> file in <code class="language-plaintext highlighter-rouge">your directory/ouput</code> folder.</p>
 
-<hr />
-
-<h1 id="intro">Intro.</h1>
-
-<p>미국에서 컴퓨터 과학 전공으로 대학을 다니고 있습니다. 추가로 딥러닝과 데이터 학습 공부를 하고 있습니다. AI Eingneer를 목표로 학습 중 입니다.</p>
-
-<p>개발을 하는 가장 큰 이유는 귀찮기 싫어서 입니다. 어떻게 해서든 일 하나를 줄여주는 프로그램을 개발하고 만듭니다.</p>
-
-<p>때론 개발 환경을 깔끔하게 정리하고 꾸미는 것을 더 좋아합니다. (vim유저 입니다)</p>
-
-<hr />
-
-<h1 id="skill">Skill.</h1>
-
-<p><strong>Language</strong></p>
+<h2 id="todo">Todo</h2>
 
 <ul>
-  <li>Python: 패키지 개발, 데이터 학습</li>
-  <li>C++: 대학교 수업, 과제</li>
-  <li>Swift: 개인 공부, IOS App 개발</li>
+  <li>
+    <p><del>make md to jekyll post format</del></p>
+  </li>
+  <li>
+    <p>add other notion type</p>
+  </li>
+  <li>
+    <p>add test</p>
+  </li>
+  <li>
+    <p>export subpage</p>
+  </li>
+  <li>
+    <p>export subfile</p>
+  </li>
+  <li>
+    <p>export media</p>
+  </li>
 </ul>
 
-<p><strong>Field</strong></p>
+<h2 id="contributing">Contributing</h2>
 
-<ul>
-  <li>Development: 개인 계산 패키지 배포</li>
-  <li>Data:</li>
-  <li>Infra</li>
-  <li>Server</li>
-</ul>
+<p>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.</p>
 
-<hr />
+<p>Please make sure to update tests as appropriate.</p>
 
-<h1 id="career">Career.</h1>
+<h2 id="license">License</h2>
 
-<hr />
-
-<h1 id="background">Background.</h1>
-
-<p><strong>Diablo Valley College / Computer Science</strong></p>
-
-<p>2018년 6월 - 2020년 5월</p>
-
-<p>미국 캘리포니아</p>
-
-<p><strong>University of California San Diego / Computer Science</strong></p>
-
-<p>2020년 9월 -</p>
-
-<p>미국 캘리포니아</p>
-</div>
+<p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
+<div class="post-date">
+        Created in 29 Jun, 2020
+    </div></div>
 
 
       
@@ -217,7 +205,7 @@
         <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large">Tweet</a>
     </div>
     <div class="share-facebook">
-        <div class="fb-share-button" data-href="https://www.echo724.github.io/about/" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+        <div class="fb-share-button" data-href="https://www.echo724.github.io/en/project/2020-6-29-Notion2Md" data-layout="button_count" data-size="large" data-mobile-iframe="true">
             <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">공유하기</a>
         </div>
     </div>
