@@ -35,8 +35,6 @@ incremental: false
 
 # Collections
 collections:
-  blog:
-    output: true
   project:
     output: true
 
@@ -48,4 +46,3 @@ default:
       layout: post
       post-header: false
       project-header: false
-      math: true

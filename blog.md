@@ -8,7 +8,7 @@ permalink: /blog/
 ---
 
 <div class="catalogue">
-{%- assign ordered = site.blog | reverse -%}
+{%- assign ordered = site.posts | reverse -%}
 {% for page in ordered %}
   {%- if page.layout == "post" -%}
     {%- include post-list.html -%}
