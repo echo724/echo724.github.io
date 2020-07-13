@@ -14,6 +14,7 @@
     
     
     <url>
+<<<<<<< HEAD
         <loc>https://www.echo724.github.io/docs/blog/july-recent-article-i-read/</loc>
     </url>
     
@@ -23,6 +24,9 @@
     
     <url>
         <loc>https://www.echo724.github.io/docs/blog/2018-year-in-review/</loc>
+=======
+        <loc>https://www.echo724.github.io/</loc>
+>>>>>>> 291a719502bad85a00db45005259b69bf1177139
     </url>
     
     
@@ -78,7 +82,11 @@
     
     
     <url>
+<<<<<<< HEAD
         <loc>https://www.echo724.github.io/docs/blog/designer-can-make-jekyll-blog/</loc>
+=======
+        <loc>https://www.echo724.github.io/docs/blog/starting-a-newsletter-for-designsystem/</loc>
+>>>>>>> 291a719502bad85a00db45005259b69bf1177139
     </url>
     
     
@@ -86,7 +94,11 @@
     
     
     <url>
+<<<<<<< HEAD
         <loc>https://www.echo724.github.io/docs/highlight-img-share/</loc>
+=======
+        <loc>https://www.echo724.github.io/docs/blog/designer-can-make-jekyll-blog/</loc>
+>>>>>>> 291a719502bad85a00db45005259b69bf1177139
     </url>
     
     
@@ -126,7 +138,11 @@
     
     
     <url>
+<<<<<<< HEAD
         <loc>https://www.echo724.github.io/</loc>
+=======
+        <loc>https://www.echo724.github.io/docs/highlight-img-share/</loc>
+>>>>>>> 291a719502bad85a00db45005259b69bf1177139
     </url>
     
     
@@ -134,7 +150,19 @@
     
     
     <url>
+<<<<<<< HEAD
         <loc>https://www.echo724.github.io/docs/blog/starting-a-newsletter-for-designsystem/</loc>
+=======
+        <loc>https://www.echo724.github.io/docs/blog/july-recent-article-i-read/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://www.echo724.github.io/docs/blog/2018-year-in-review/</loc>
+>>>>>>> 291a719502bad85a00db45005259b69bf1177139
     </url>
     
     
