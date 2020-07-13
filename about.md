@@ -2,6 +2,7 @@
 layout: post
 title: "Eunchan Cho"
 subtitle: "A developer who creates convenience."
+header-img: /assets/images/profile.png
 permalink: /about/
 ---
 
