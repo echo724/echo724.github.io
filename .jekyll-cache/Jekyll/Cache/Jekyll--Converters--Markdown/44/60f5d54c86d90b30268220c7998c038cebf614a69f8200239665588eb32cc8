@@ -1,0 +1,46 @@
+I"�<h1 id="주피터-소개">주피터 소개</h1>
+
+<p>주피터 노트북은 인터렉티브 컴퓨팅을 위해 개발된 서비스로, Ipython, Markdown 등을 하나의 셀에 작성 시켜 실행시킬 수 있다. 마치 코드가 담긴 노트를 만들 수 있다!</p>
+
+<p>오늘은 이 주피터 노트북에 테마를 입혀 보려고 한다.</p>
+
+<p><img src="/assets/images/jupyter 테마 사용하기/img_1.png" alt="/assets/images/jupyter 테마 사용하기/img_1.png" /></p>
+
+<p>약간은 칙칙한 기본 주피터 노트북</p>
+
+<p><img src="/assets/images/jupyter 테마 사용하기/img_2.png" alt="/assets/images/jupyter 테마 사용하기/img_2.png" /></p>
+
+<p>Output도 그다지 이쁘진 않다.</p>
+
+<h1 id="테마-변경">테마 변경</h1>
+
+<p>테마 변경은 zsh테마를 변경하는 것에 비해 훨씬 쉽다.</p>
+
+<p>깃헙 주소:</p>
+
+<p><a href="https://github.com/dunovank/jupyter-themes">dunovank/jupyter-themes</a></p>
+
+<h2 id="설치방법">설치방법:</h2>
+
+<h3 id="패키지-설치">패키지 설치</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>jupyterthemes
+</code></pre></div></div>
+
+<h3 id="설정">설정</h3>
+
+<p>설정은 아래 명령어 표를 보고 원하는 옵션을 명령어에 넣으면 된다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">주의: 설정을 할 때는 한꺼번에 해야한다. 여러번에 나눠서 적용이 안되기 때문에, 원하는 설정을 한 번에 집어넣도록 하자.</code></p>
+
+<p>예시:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jt <span class="nt">-t</span> onedork <span class="nt">-T</span> <span class="nt">-N</span> <span class="nt">-kl</span> <span class="nt">-f</span> roboto <span class="nt">-fs</span> 12
+</code></pre></div></div>
+
+<p><img src="/assets/images/jupyter 테마 사용하기/img_3.png" alt="/assets/images/jupyter 테마 사용하기/img_3.png" /></p>
+
+<p><img src="/assets/images/jupyter 테마 사용하기/img_4.png" alt="/assets/images/jupyter 테마 사용하기/img_4.png" /></p>
+
+<p>이런 식으로 바뀐다</p>
+:ET
