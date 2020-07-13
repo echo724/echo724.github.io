@@ -24,7 +24,7 @@
                     <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} >About</a>
                 </li>
                 {% for tongue in site.languages %}
-                	<li class = "transition" id="lang" style="float: right;">
+                	<li id="lang" style="float: right;">
                     <a style="{% if tongue == site.active_lang %}font-weight: bold;{% endif %}text-align:center;" href="{% if tongue == site.default_lang %} {{site.baseurl}}{{page.url}} {% else %} {{site.baseurl}}/{{ tongue }}{{page.url}} {% endif %}">{{ tongue }}
                     </a>
 			             </li>
