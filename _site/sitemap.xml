@@ -6,7 +6,7 @@
     
     
     <url>
-        <loc>https://www.echo724.github.io/about/</loc>
+        <loc>http://localhost:4000/about/</loc>
     </url>
     
     
@@ -14,7 +14,7 @@
     
     
     <url>
-        <loc>https://www.echo724.github.io/</loc>
+        <loc>http://localhost:4000/</loc>
     </url>
     
     

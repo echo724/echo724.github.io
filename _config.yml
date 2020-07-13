@@ -4,7 +4,7 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          Echo's Blog
 baseurl:        ""
-url:            "https://www.echo724.github.io"
+url:            https://www.echo724.github.io
 
 # Assets
 sass:
@@ -25,21 +25,13 @@ author:
 # Custom vars
 version:
 github:
-  repo:         https://github.com/echo724/echo724.github.io
+  repo:
 
 # Plugins
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-plugins:
-  - jekyll-polyglot
-
-# Multi-Language
-languages: ["en","ko"]
-default_lang: "ko"
-exclude_from_localization: ["img","docs","vendor","assets"]
-parallel_localizaion: false
 
 # Collections
 collections:
@@ -57,10 +49,3 @@ default:
       post-header: false
       project-header: false
       math: true
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - /docs
-  - /vendor

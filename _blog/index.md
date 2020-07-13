@@ -3,6 +3,7 @@ layout: default
 title: "Blog"
 description: Ways to become Convenient.
 project-header: true
+
 permalink: /blog/
 ---
 
