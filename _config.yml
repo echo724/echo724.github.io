@@ -32,6 +32,14 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+plugins:
+  - jekyll-polyglot
+
+# Multi-Language
+languages: ["en","ko"]
+default_lang: "ko"
+exclude_from_localization: ["img","docs","vendor","assets"]
+parallel_localizaion: false
 
 # Collections
 collections:
