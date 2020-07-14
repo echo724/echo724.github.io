@@ -5,7 +5,6 @@
   {% if page.math %}
   {% include mathjax_support.html %}
   {% endif %}
-
   <body>
       {% assign current = page.url | downcase | split: '/' %}
       <nav class="nav">
@@ -36,11 +35,6 @@
 
     <main>
       {{ content }}
-
-      {% if page.layout == "post" %}
-            {% include share.html %}
-      {% endif %}
-
       </main>
 
       {% include footer.html %}

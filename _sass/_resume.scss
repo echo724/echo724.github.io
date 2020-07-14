@@ -3,7 +3,7 @@
     font-family: $san-serif;
     font-size: 18px;
     font-weight: 600;
-    color: $blue;
+    color: $red;
     vertical-align: middle;
 
     .label-emoji {
@@ -27,7 +27,7 @@ div.resume-info {
     .project {
         width: 100%;
         padding: 30px 0;
-        border-top: 1px solid rgba(0,0,0,.07);
+        border-top: 1px solid $dark-3;
 
         .project-name {
             font-family: $san-serif;
@@ -67,7 +67,7 @@ div.resume-info {
     a {
         .view-all-projects {
             display: inline-block;
-            color: $default-tint;
+            color: $red;
             font-size: 18px;
             font-family: $san-serif;
             font-weight: 600;

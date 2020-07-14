@@ -6,7 +6,7 @@ header-img: /assets/images/profile.png
 permalink: /about/
 ---
 
-![/assets/images/profile.png](/assets/images/profile.png){: width: "50" height: "50"}
+![/assets/images/profile.png](/assets/images/profile.png){: width: "10px" height: "10px"}
 `편리함`과 `깔끔함`을 추구하는 `개발자` `조은찬`입니다.
 
 # Info.

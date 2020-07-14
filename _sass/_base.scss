@@ -2,10 +2,14 @@
   @include box-sizing;
   line-height: 1.5;
 }
+title{
+  color: $white;
+}
 
 html,
 body {
-  color: $grey-0;
+  background: $dark-2;
+  color: $white;
   margin: 0;
   padding: 0;
 }
@@ -62,7 +66,6 @@ img {
   margin: 0 0 1rem;
   max-width: 100%;
 }
-
 td {
   vertical-align: top;
 }

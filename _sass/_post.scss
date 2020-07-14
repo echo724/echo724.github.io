@@ -18,11 +18,11 @@
 
 .project-header {
         font-family: $san-serif;
-        color: $grey-0;
+        color: $white;
     .header-project-title {
         font-weight: 700;
         font-size: 38px;
-
+        color: $white;
         @media (max-width: $break-small) {
             font-size: 32px;
         }
@@ -45,7 +45,13 @@
 //post 영역
 
 .post {
-  padding-bottom: 40px;
+  background-color: #fff;
+	border-radius: 4px;
+	margin: 10% auto;
+	position: relative;
+  padding: 34px;
+	color: #444;
+	cursor: pointer;
 
     p {
         line-height: 1.8;
@@ -68,6 +74,8 @@
   }
 
     a {
+        color: $grey-0;
+        font-weight: 500;
         transition: all 0.2s ease-in-out;
         background-position: 0% 100%, 110% 90%, 0% 98%;
         background-repeat: no-repeat, no-repeat, repeat-x;
@@ -263,7 +271,7 @@ sup {
 }
 
 .post-info>h1.post-title {
-    padding: 0 0 12px 0;
+    padding: 0 0 0px 0;
     font-weight: 700;
     font-size: 32px;
     font-family: $san-serif;
@@ -277,7 +285,7 @@ sup {
 }
 
 .post-info>h2.post-subtitle {
-    padding: 0 0 60px 0;
+    padding: 0 0 10px 0;
     font-weight: 400;
     font-size: 22px;
     color: $grey-1;
@@ -288,9 +296,9 @@ sup {
     }
 }
 .post-date{
-  color: $grey-0;
+  color: $grey-1;
   font-size: 16px;
-  font-family: $source;
+  font-family: $san-serif;
 }
 
 .catalogue-tag {
@@ -339,10 +347,11 @@ sup {
 .share {
     display: inline-block;
     position: relative;
-    margin-bottom: 120px;
+    margin-bottom: 10px;
     animation-name: moving;
     animation-duration: 0.6s;
     animation-timing-function: ease-in-out;
+    margin-left: -2px;
 }
 
 .share-facebook {

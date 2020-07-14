@@ -10,17 +10,18 @@ layout: default
                 Coming Soon
             </span>
             {%- endif -%}
-            {% for type in page.type %}
-            <span class="catalogue-type">
-                {{ type }}
-            </span>
-            {% endfor %}
         </div>
         <h1 class="post-title">
             {{ page.title }}
         </h1>
         <h2 class="post-subtitle">
             {{ page.subtitle }}
+            <br>
+            {% if page.type != nil %}
+            <span class="catalogue-type">
+                {{ page.type }}
+            </span>
+            {% endif %}
         </h2>
     </div>
     {%- if page.draft == true -%}
@@ -33,10 +34,12 @@ layout: default
     {%- endif -%}
 <!--큐레이션 영역-->
     {{ content }}
-    
+
     {%- if page.date -%}
     <div class="post-date">
-        Created in {{ page.date | date: "%d %b, %Y" }}
+        {{ page.date | date: "%d %b, %Y" }}
     </div>
     {%- endif -%}
+    <!--
+    {% include share.html %} -->
 </div>

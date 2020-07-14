@@ -20,8 +20,10 @@ footer>.footer_wrap,
 }
 
 .nav {
+    background-color: $red;
     overflow: auto;
-    padding: 24px 0;
+    padding: 14px 0;
+
 
   &-container {
       margin: 0 auto;
@@ -60,30 +62,32 @@ footer>.footer_wrap,
 
 .active {
     padding-bottom: 6px;
-    border-bottom: 2px solid $grey-0;
+    border-bottom: 2px solid $white;
     font-weight: 700;
-    color: $grey-0;
+    color: $white;
 }
 
 .normal {
     font-weight: 500;
     border-style: none;
     padding-bottom: 0;
+    color: $white;
 }
 
 a {
-//    color: $grey-0;
+     color: $white;
 }
 
 //footer
 
 footer {
     font-family: $san-serif;
-    padding: 36px 0 46px 0;
-    background-color: $grey-3;
-    color: $default-tint;
-    border-top: 1px solid $grey-2;
-    border-bottom: 1px solid $grey-2;
+    padding: 0px 0 30px 0;
+    background-color: $dark-2;
+    color: $white;
+    border-top: 1px solid $dark-2;
+    border-bottom: 1px solid $dark-2;
+
 
     .footer_wrap {
         font-style: normal;
@@ -91,27 +95,12 @@ footer {
 
         .information {
             display: inline-block;
-
-            .myname {
-                font-size: 20px;
-                font-weight: 600;
-                margin-bottom: 4px;
-}
-            .email {
-                font-size: 16px;
-                color: $default-tint;
-            }
-
-            a.email:hover {
-                opacity: .6;
-            }
-
             .accounts {
                 margin-top: 36px;
                 a {
                     margin-right: 24px;
                     svg {
-                        fill: $default-tint;
+                        fill: $white;
                         width: 20px;
                     }
                 }
