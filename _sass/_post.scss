@@ -19,15 +19,18 @@
 .project-header {
         font-family: $san-serif;
         color: $white;
-        background-color: $dark-0;
+        background-color: $grey-0;
         text-align: left;
         left: 0px;
+        // @media (max-width: $break-small) {
+        //     padding: %;
+        // }
     .header-project-title {
         font-weight: 700;
         font-size: 38px;
         color: $white;
         @media (max-width: $break-small) {
-            font-size: 32px;
+            font-size: 34px;
         }
     }
     .header-project-des {
