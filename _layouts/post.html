@@ -1,27 +1,27 @@
 ---
 layout: default
 ---
-
 <div class="post">
     <div class="post-info">
-        <div class="post-type-tag">
-            {%- if page.draft == true -%}
-            <span class="catalogue-tag">
-                Coming Soon
-            </span>
-            {%- endif -%}
-        </div>
         <h1 class="post-title">
             {{ page.title }}
         </h1>
         <h2 class="post-subtitle">
             {{ page.subtitle }}
             <br>
-            {% if page.type != nil %}
-            <span class="catalogue-type">
-                {{ page.type }}
-            </span>
-            {% endif %}
+
+            <!-- <div class="post-type-tag"> -->
+                {%- if page.draft == true -%}
+                <span class="catalogue-tag">
+                    Coming Soon
+                </span>
+                {%- endif -%}
+                {% if page.type != nil %}
+                <span class="catalogue-type">
+                    {{ page.type }}
+                </span>
+                {% endif %}
+            <!-- </div> -->
         </h2>
     </div>
     {%- if page.draft == true -%}

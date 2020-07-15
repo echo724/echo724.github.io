@@ -25,19 +25,24 @@
             </ul>
         </div>
       </nav>
-
-      {% if page.post-header == true %}
-          {% include post-header.html %}
-      {% endif %}
-      {% if page.project-header == true %}
-          {% include project-header.html %}
-      {% endif %}
-
-    <main>
-      {{ content }}
-      </main>
-
+      <div class ="main-container">
+        <div class ="wrapper">
+        <div class ="contents">
+          <div class ="contents-header">
+            {%- if page.post-header == true -%}
+                {% include post-header.html %}
+            {%- endif -%}
+            {%- if page.project-header == true -%}
+                {% include project-header.html %}
+            {%- endif -%}
+          </div>
+          <main>
+            {{ content }}
+          </main>
+        </div>
+        {% include floating.html %}
+      </div>
+    </div>
       {% include footer.html %}
-
   </body>
 </html>

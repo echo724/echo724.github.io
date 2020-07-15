@@ -57,7 +57,7 @@ section.explanation {
     .intro-link:hover
     a {
         cursor: pointer;
-        color: $blue;
+        color: $red;
 
         @media (max-width: $break-small) {
             color: $grey-0;
@@ -74,7 +74,7 @@ section.explanation {
 
     .underline-mask {
         content: '';
-        background-color: $blue;
+        background-color: $red;
         transform: scaleX(0);
 //        transform-origin: 0% 0%;
         transition: transform 300ms ease-in-out;

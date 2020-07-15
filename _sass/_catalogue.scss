@@ -1,12 +1,12 @@
 .catalogue {
-  background-color: $dark-2;
+  margin-top: 2%;
+  background-color: $dark-0;
 	position: relative;
 	color: #444;
 	cursor: pointer;
     &-item {
-        border-top: 1px solid $dark-3;
-        border-bottom: 1px solid $dark-3;
-        padding: 30px 0;
+        border-top: 1px solid $grey-0;
+        padding: 20px 0;
         list-style: none;
 
     &:first-child{
@@ -15,7 +15,6 @@
 
     &:last-child {
         margin-bottom: 0px;
-        border: none;
 //        border-bottom: 1px solid $grey-2;
     }
   }
@@ -27,12 +26,12 @@
       margin-bottom: 2px;
       text-transform: uppercase;
       letter-spacing: 0.03em;
-      padding: 4px 7px;
-      font-size: 13px;
+      padding: 4px 4px;
+      font-size: 10px;
       font-weight: 700;
       margin-bottom: 10px;
       background-color: $skyblue;
-      border-radius: 8px;
+      border-radius: 3px;
 
       @media (max-width: $break-medium) {
           margin: 10px 0;
@@ -46,12 +45,12 @@
         margin-bottom: 2px;
         text-transform: uppercase;
         letter-spacing: 0.03em;
-        padding: 4px 7px;
-        font-size: 13px;
+        padding: 4px 4px;
+        font-size: 10px;
         font-weight: 700;
         margin-bottom: 10px;
-        background-color: $yellow;
-        border-radius: 8px;
+        background-color: $red;
+        border-radius: 3px;
 
         @media (max-width: $break-medium) {
             margin: 10px 0;
