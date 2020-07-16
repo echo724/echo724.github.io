@@ -57,13 +57,14 @@
 //post 영역
 
 .post {
+  border-radius: 20px;
   margin-top: 20px;
   background-color: #fff;
 	position: relative;
   padding: 34px 34px;
 	color: #444;
   width: 100%;
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
 	cursor: pointer;
   @media (max-width: $break-small) {
       margin-top: 0px;
@@ -83,7 +84,8 @@
         }
     }
     img {
-        margin: 0 auto;
+        margin: 2px auto;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
     }
 
   }

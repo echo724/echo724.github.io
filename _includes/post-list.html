@@ -17,9 +17,11 @@
                 Coming Soon
             </span>
             {% endif %}
+            {% for tag in page.tags %}
             <span class="catalogue-type">
-                {{ page.type }}
+                {{ tag }}
             </span>
+            {% endfor %}
         </div>
     </a>
 </li>

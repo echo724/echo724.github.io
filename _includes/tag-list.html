@@ -1,0 +1,10 @@
+<div class = "tag-list-wrapper">
+  Test
+  <div class = "tag-list">
+    {% for tag in site.tags %}
+      <span class = "tag">
+        {{ tag.name }}
+      </span>
+    {% endfor %}
+  </div>
+</div>

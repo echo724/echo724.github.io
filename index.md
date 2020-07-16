@@ -5,7 +5,7 @@ subtitle: Welcome to Echo's Blog
 description:
 project-header: true
 ---
-
+<!-- {% include tag-list.html %} -->
 <div class="catalogue">
 {%- assign ordered = site.posts -%}
 {%- for page in ordered -%}
