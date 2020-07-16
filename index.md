@@ -1,10 +1,22 @@
 ---
-layout: default
-title: "Eunchan Cho"
-subtitle: Hello, I'm Eunchan Cho, Lazy Developer
-description: Hello. I'm a college student studying in U.S. Computer Science Major and Interested in Physics and Deep Learning
+layout: home
+title: "Welcome to Echo's Tech Blog"
+subtitle: Welcome to Echo's Blog
+description:
+project-header: true
 ---
-<div class="intro-animation">
+
+<div class="catalogue">
+{%- assign ordered = site.posts -%}
+{%- for page in ordered -%}
+  {%- if page.layout == "post" -%}
+    {%- include post-list.html -%}
+  {%- endif -%}
+{%- endfor -%}
+</div>
+
+
+<!-- <div class="intro-animation">
 <section class="explanation">
     <h1 class="intro">
     Hello, I am Echo,
@@ -20,4 +32,4 @@ description: Hello. I'm a college student studying in U.S. Computer Science Majo
     </h1>
 </section>
 </div>
-{% include resume.html %}
+{% include resume.html %} -->

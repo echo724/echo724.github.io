@@ -17,18 +17,25 @@
 //project header
 
 .project-header {
+        margin-top:100px;
+        margin-left: 20px;
+        margin-bottom: 100px;
         font-family: $san-serif;
-        color: $white;
-        background-color: $dark-0;
+        color: $grey-0;
         text-align: left;
         left: 0px;
         // @media (max-width: $break-small) {
         //     padding: %;
         // }
+        @media (max-width: $break-small) {
+            margin-left: 0px;
+            margin-top:30px;
+            margin-bottom:30px;
+        }
     .header-project-title {
-        font-weight: 700;
+        font-weight: 200;
         font-size: 38px;
-        color: $white;
+        color: $dark-0;
         @media (max-width: $break-small) {
             font-size: 34px;
         }
@@ -50,16 +57,17 @@
 //post 영역
 
 .post {
+  margin-top: 20px;
   background-color: #fff;
-	border-radius: 4px;
-	margin: 0% 0 0 0;
 	position: relative;
   padding: 34px 34px;
 	color: #444;
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 	cursor: pointer;
-
+  @media (max-width: $break-small) {
+      margin-top: 0px;
+  }
     p {
         line-height: 1.8;
         margin: 0 0 10px 0;
