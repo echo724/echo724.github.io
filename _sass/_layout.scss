@@ -9,8 +9,7 @@
 }
 
 main,
-footer>.footer_wrap,
-.nav-container {
+footer>.footer_wrap {
   margin: 0 auto;
   max-width: 750px;
   width: 100%;
@@ -20,33 +19,44 @@ footer>.footer_wrap,
 }
 
 .nav {
-    max-width: 1100px;
+    max-width: 100%;
     overflow: auto;
     padding: 10px;
     margin: 40px auto;
     margin-top: 0;
     margin-bottom: -30px;
+    // background-color: $grey-0;
     @media (max-width: $break-small) {
         margin-bottom: 0px;
     }
     // background-color: $grey-1;
 
-  &-container {
-      max-width: 80%;
-      margin: 0 auto;
-      position: relative;
+  .nav-container {
+      // margin-top:0;
+      // margin: 0 auto;
+      max-width: 1100px;
+      // background-color: $grey-3;
+      box-sizing: border-box;
+      margin:0 auto;
+      padding: 0 2em;
+      @media (max-width: $break-small) {
+          // background-color: $grey-1;
+          padding: 0 0px;
+      }
       // background-color: $grey-0;
       img{
         width: 35px;
         height:35px;
         float: left;
         margin:5px;
+        // background-color: $grey-2;
         // background-color: $dark-0;
       }
       .blog-name{
         float:left;
         margin-top: 8px;
         margin-left: 10px;
+        // background-color: $grey-3;
       }
   }
 }
@@ -145,16 +155,40 @@ footer {
   justify-content: space-between;
   margin: 0 0 10px 0;
   padding: 0 2em;
+  // background: $grey-0;
   @media (max-width: $break-small) {
       width: 100%;
       display:block;
-      padding:0 2em;
+      padding:0 1em;
+      margin-top: 10px;
   }
+  .category{
+    margin-top: 20px;
+    background: $white;
+    .category-items{
+      font-family: $san-serif;
+      color: $white;
+      display: inline-block;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      padding: 4px 4px;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      @media (max-width: $break-small) {
+        font-size: 16px;
+      }
+      }
+    }
   .contents{
     width: calc((100% - 290px) );
     box-sizing: border-box;
     display: block;
     margin-bottom:10%;
+    margin-top: 0;
+     // background: $grey-2;
     @media (max-width: $break-small) {
         width: 100%;
         margin-bottom: 5%;
@@ -175,8 +209,11 @@ footer {
     padding: 1.5em;
     background: $white;
     // border-radius: 8px;
-    display: block;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: space-around;
     text-align:center;
     margin: 0px 0px;
     margin-top: 20px;
@@ -188,6 +225,7 @@ footer {
       width: 100%;
       clear:both;
       margin-left: 0;
+      box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
     }
     .information {
         display: inline-block;
@@ -207,81 +245,6 @@ footer {
 
     }
   }
-  }
-}
-.home-main-container{
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 0px;
-  box-sizing: border-box;
-  display: block;
-  margin-top: 30px;
-  @media (max-width: $break-small) {
-
-    margin: 0;
-  }
-}
-.home-wrapper{
-  // margin-top: 2em;
-  display: flex;
-  min-height: 88vh;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  margin: 0 0 10px 0;
-  padding: 0 2em;
-  @media (max-width: $break-small) {
-      width: 100%;
-  }
-  .home-contents{
-    width: 100%;
-    box-sizing: border-box;
-    display: block;
-    margin-bottom:10%;
-    @media (max-width: $break-small) {
-        width: 100%;
-        margin-bottom: 5%;
-    }
-  }
-  .home-floating{
-    clear: both;
-    width: 80%;
-    font-size: 15.5px;
-    padding: 1.5em;
-    background: $white;
-    // border-radius: 8px;
-    display: block;
-    box-sizing: border-box;
-    margin: 0px 0px;
-    color: $dark-0;
-    padding-top:40px;
-    padding-bottom:40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-
-    @media (max-width: $break-small) {
-      width: 100%;
-      clear:both;
-    }
-    .information {
-        display: inline-block;
-        .accounts {
-            margin-top: 36px;
-            a {
-                margin: 10px;
-                svg {
-                    fill: $dark-0;
-                    width: 20px;
-                }
-            }
-            a:hover {
-                opacity: .6;
-            }
-        }
-
-    }
   }
 }
 main {

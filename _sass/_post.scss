@@ -8,7 +8,6 @@
     width: 100%;
     min-height: 360px;
     background-color: $grey-2;
-
     @media (max-width: $break-small) {
         min-height: 200px;
     }
@@ -17,13 +16,15 @@
 //project header
 
 .project-header {
-        margin-top:100px;
-        margin-left: 20px;
-        margin-bottom: 100px;
+        margin-top:20px;
+        margin-left: 0;
+        margin-bottom: 20px;
         font-family: $san-serif;
         color: $grey-0;
         text-align: left;
         left: 0px;
+        // background-color: $grey-0;
+        border-bottom: 1px solid $grey-2;
         // @media (max-width: $break-small) {
         //     padding: %;
         // }
@@ -31,11 +32,13 @@
             margin-left: 0px;
             margin-top:30px;
             margin-bottom:30px;
+
         }
     .header-project-title {
-        font-weight: 200;
-        font-size: 38px;
+        font-weight: 700;
+        font-size: 40px;
         color: $dark-0;
+
         @media (max-width: $break-small) {
             font-size: 34px;
         }
@@ -64,10 +67,11 @@
   padding: 34px 34px;
 	color: #444;
   width: 100%;
-  box-shadow: 0px 5px 30px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 	cursor: pointer;
   @media (max-width: $break-small) {
       margin-top: 0px;
+      box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
   }
     p {
         line-height: 1.8;

@@ -37,6 +37,8 @@ incremental: false
 collections:
   project:
     output: true
+  blog:
+    output: true
 
 default:
   -

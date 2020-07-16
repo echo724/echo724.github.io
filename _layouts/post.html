@@ -17,9 +17,11 @@ layout: default
                 </span>
                 {%- endif -%}
                 {% if page.tags != nil %}
+                {% for tag in page.tags %}
                 <span class="catalogue-type">
-                    {{ page.tags }}
+                    {{ tag }}
                 </span>
+                {% endfor %}
                 {% endif %}
             <!-- </div> -->
         </h2>

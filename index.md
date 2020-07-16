@@ -1,16 +1,13 @@
 ---
-layout: home
-title: "Welcome to Echo's Tech Blog"
-subtitle: Welcome to Echo's Blog
-description:
+title: "all"
+layout: default
 project-header: true
 ---
-<!-- {% include tag-list.html %} -->
 <div class="catalogue">
 {%- assign ordered = site.posts -%}
 {%- for page in ordered -%}
   {%- if page.layout == "post" -%}
-    {%- include post-list.html -%}
+        {%- include post-list.html -%}
   {%- endif -%}
 {%- endfor -%}
 </div>

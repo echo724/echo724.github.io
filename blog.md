@@ -1,12 +1,11 @@
 ---
 layout: default
-title: "Blog"
-description: Ways to become Convenient.
+title: "blog"
 project-header: true
 permalink: /blog/
 ---
 <div class="catalogue">
-{%- assign ordered = site.posts -%}
+{%- assign ordered = site.tags.blog -%}
 {%- for page in ordered -%}
   {%- if page.layout == "post" -%}
     {%- include post-list.html -%}
