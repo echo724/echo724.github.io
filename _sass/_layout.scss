@@ -28,7 +28,7 @@ footer>.footer_wrap {
     // background-color: $grey-2;
     // background-color: $grey-0;
     @media (max-width: $break-small) {
-        margin-bottom: 0px;
+        margin-bottom: -10px;
     }
     // background-color: $grey-1;
   .nav-container {
@@ -56,6 +56,9 @@ footer>.footer_wrap {
         float:left;
         margin-top: 8px;
         margin-left: 10px;
+        @media (max-width: $break-small) {
+            margin-top: 10px
+        }
         // background-color: $grey-3;
       }
       .category{
@@ -178,10 +181,10 @@ footer {
   display: flex;
   min-height: 88vh;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 0 10px 0;
   padding: 0 2em;
-  // background: $grey-0;
+  background: $grey-0;
   @media (max-width: $break-small) {
       width: 100%;
       display:block;
@@ -191,12 +194,12 @@ footer {
 
   .contents{
     z-index: 1;
-    width: calc((100% - 290px) );
+    width: calc((100% - 290px));
     box-sizing: border-box;
     display: block;
     margin-bottom:10%;
     margin-top: 0;
-     // background: $grey-2;
+    background: $grey-2;
     @media (max-width: $break-small) {
         width: 100%;
         margin-bottom: 0;
@@ -226,7 +229,7 @@ footer {
     margin-top: 20px;
     margin-left: 20px;
     top: 2em;
-    color: $dark-0;
+    color: #000;
     border-radius: 20px;
     @media (max-width: $break-small) {
       width: 100%;
@@ -264,6 +267,8 @@ footer {
           margin-top: 10px;
         }
         .accounts {
+            display: flex;
+            justify-content: space-around;
             margin-top: 20px;
             margin-bottom: -10px;
             a {

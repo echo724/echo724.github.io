@@ -14,7 +14,6 @@
               <strong>Echo</strong>'s Tech Blog
             </span>
           </a>
-          {% if page.layout != "post" %}
           <div class ="category">
             <ul id="menu">
             {% assign current = page.url | downcase | split: '/' %}
@@ -29,7 +28,6 @@
             </li>
           </ul>
           </div>
-          {% endif %}
         </div>
       </nav>
       <div class ="main-container">
