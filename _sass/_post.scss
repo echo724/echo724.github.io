@@ -28,18 +28,17 @@
         // @media (max-width: $break-small) {
         //     padding: %;
         // }
-        @media (max-width: $break-small) {
+        @media (max-width: $break-medium) {
             margin-left: 0px;
-            margin-top:30px;
-            margin-bottom:30px;
-
+            margin-top:10px;
+            margin-bottom:10px;
         }
     .header-project-title {
         font-weight: 700;
         font-size: 40px;
         color: $dark-0;
 
-        @media (max-width: $break-small) {
+        @media (max-width: $break-medium) {
             font-size: 34px;
         }
     }
