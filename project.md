@@ -1,6 +1,6 @@
 ---
 layout: default
-title: project
+description: makes the world convenient.
 permalink: /project/
 project-header: true
 ---

@@ -34,12 +34,12 @@ $break-medium: 900px;
 $break-small: 670px;
 
 // font-family 정의
-$san-serif: "-apple-system", "BlinkMacSystemFont","Apple SD Gothic Neo",
+$san-serif: 'Roboto','Noto Sans KR',"-apple-system" ,"BlinkMacSystemFont","Apple SD Gothic Neo",
   "Inter", "Spoqa Han Sans", "Segoe UI", Sans-Serif;
 $serif: "Nanum Myeongjo",sans-serif;
-$source: 'Anonymous Pro', sans-serif;
+$source: 'Roboto', sans-serif;
 
-$monospaced-font: 'Anonymous Pro', 'Nanum Gothic Coding', monospace;
+$mono: 'Anonymous Pro', 'Nanum Gothic Coding', monospace;
 $code-color: #bf616a;
 
 @mixin box-sizing($type: border-box) {

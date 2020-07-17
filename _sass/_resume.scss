@@ -49,7 +49,7 @@ div.resume-info {
             p.work-sub-info {
                 color: $default-tint;
                 font-size: 16px;
-                font-family: $source;
+                font-family: $mono;
                 font-weight: 400;
             }
         }
@@ -96,7 +96,7 @@ section.skill {
 
     li.skill_name {
         display: inline-block;
-        font-family: $source;
+        font-family: $mono;
         padding: 4px 14px;
         border-radius: 100px;
         border: solid 1px $grey-2;

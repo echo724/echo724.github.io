@@ -11,7 +11,7 @@
           <a class="transition" href="{{ '' | prepend: site.baseurl }}/">
             <img src ="/assets/logo.png">
             <span class="blog-name">
-              Echo's Blog
+              <strong>Echo</strong>'s Tech Blog
             </span>
           </a>
         </div>
@@ -19,6 +19,7 @@
       <div class ="main-container">
         <div class ="wrapper">
         <div class ="contents">
+          {% if page.layout != "post" %}
           <div class ="category">
             <ul>
             {% assign current = page.url | downcase | split: '/' %}
@@ -26,13 +27,14 @@
               <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" or current[1] == "project" %} class="normal" {% endif %} class="active">All</a>
             </li>
             <li class="category-items">
-              <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >Blog</a>
+              <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active" {% endif %} class = "normal">Blog</a>
             </li>
             <li class="category-items">
-              <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} >Project</a>
+              <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} class = "normal" >Project</a>
             </li>
           </ul>
           </div>
+          {% endif %}
           <div class ="contents-header">
             {%- if page.post-header == true -%}
                 {% include post-header.html %}

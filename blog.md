@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "blog"
+description: how I make it.
 project-header: true
 permalink: /blog/
 ---

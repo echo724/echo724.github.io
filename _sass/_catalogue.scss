@@ -41,7 +41,7 @@
       letter-spacing: 0.03em;
       padding: 4px 4px;
       font-size: 10px;
-      font-weight: 700;
+      font-weight: 900;
       margin-bottom: 10px;
       background-color: $skyblue;
       border-radius: 3px;
@@ -60,7 +60,7 @@
         letter-spacing: 0.03em;
         padding: 4px 4px;
         font-size: 10px;
-        font-weight: 700;
+        font-weight: 900;
         margin-bottom: 10px;
         background-color: $red;
         border-radius: 3px;
@@ -120,9 +120,8 @@
 }
 .catalogue-date{
   margin-top:0px;
-  margin-left: 3px;
   color: $grey-1;
-  font-size: 14px;
+  font-size: 15px;
   font-family: $san-serif;
   font-weight: 400;
 }

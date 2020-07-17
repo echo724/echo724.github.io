@@ -1,6 +1,7 @@
 pre,
 code {
-  font-family: $monospaced-font;
+  font-family: $mono;
+
 }
 
 code {
@@ -13,6 +14,7 @@ code {
 
 pre {
   margin: 0 0 1rem;
+
 }
 
 pre code {
@@ -21,6 +23,7 @@ pre code {
   font-size: 100%;
   padding: 0;
   font-size: 16px;
+
 }
 
 .highlight {
@@ -29,7 +32,6 @@ pre code {
   line-height: 1.4;
   margin: 0 0 1rem;
   padding: 1rem;
-
   pre {
     margin-bottom: 0;
     overflow-x: auto;
