@@ -24,7 +24,7 @@
         text-align: left;
         left: 0px;
         // background-color: $grey-0;
-        border-bottom: 1px solid $grey-2;
+         border-bottom: 1px solid $grey-2;
         // @media (max-width: $break-small) {
         //     padding: %;
         // }
@@ -34,8 +34,8 @@
             margin-bottom:10px;
         }
     .header-project-title {
-        font-weight: 700;
-        font-size: 40px;
+        font-weight: 200;
+        font-size: 34px;
         color: $dark-0;
 
         @media (max-width: $break-medium) {
@@ -44,7 +44,7 @@
     }
     .header-project-des {
         display: flex;
-        font-weight: 200;
+        font-weight: 300;
         font-size: 20px;
         color: $grey-1;
         @media (max-width: $break-small) {
@@ -59,6 +59,7 @@
 //post 영역
 
 .post {
+  word-break:keep-all;
   border-radius: 20px;
   margin-top: 20px;
   background-color: #fff;
@@ -70,13 +71,11 @@
 	// cursor: pointer;
   @media (max-width: $break-small) {
       margin-top: 0px;
-
   }
     p {
         font-size: 18px;
         line-height: 1.6;
-        margin: 0 0 10px 0;
-        word-break: break-all;
+        margin-bottom: 10px;
         font-family: $san-serif;
         font-weight: 300;
         letter-spacing: 0.02em;
@@ -282,7 +281,7 @@ sup {
 
 .post-info>h2.post-subtitle {
     padding: 10px 0 5px 0;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     color: $grey-1;
     line-height: 1.5;

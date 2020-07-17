@@ -14,35 +14,56 @@
               <strong>Echo</strong>'s Tech Blog
             </span>
           </a>
-          <div class ="category">
-            <ul id="menu">
-            {% assign current = page.url | downcase | split: '/' %}
-            <li class="category-items">
-              <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" or current[1] == "project" %} class="normal" {% endif %} class="active">All</a>
-            </li>
-            <li class="category-items">
-              <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active" {% endif %} class = "normal">Blog</a>
-            </li>
-            <li class="category-items">
-              <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} class = "normal" >Project</a>
-            </li>
-          </ul>
-          </div>
         </div>
       </nav>
       <div class ="main-container">
         <div class ="wrapper">
         <div class ="contents">
-
-
+          {%- if page.layout != "post" -%}
           <div class ="contents-header">
             {%- if page.post-header == true -%}
                 {% include post-header.html %}
             {%- endif -%}
-            {%- if page.project-header == true -%}
                 {% include project-header.html %}
-            {%- endif -%}
           </div>
+          <div class ="category">
+            <ul id="menu">
+            {% assign current = page.url | downcase | split: '/' %}
+            <li class="category-items">
+              <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" or current[1] == "project" %} class="normal" {% endif %} class="active">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file" viewBox="0 0 24 24" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z"/>
+                  <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                </svg>
+              </a>
+            </li>
+            <li class="category-items">
+              <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active" {% endif %} class = "normal">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-text" viewBox="0 0 24 24" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z"/>
+                  <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                  <line x1="9" y1="9" x2="10" y2="9" />
+                  <line x1="9" y1="13" x2="15" y2="13" />
+                  <line x1="9" y1="17" x2="15" y2="17" />
+                </svg>
+              </a>
+            </li>
+            <li class="category-items">
+              <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} class = "normal" >
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-code" viewBox="0 0 24 24" stroke-width="1" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z"/>
+                <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                <path d="M10 13l-1 2l1 2" />
+                <path d="M14 13l1 2l-1 2" />
+              </svg>
+              </a>
+            </li>
+          </ul>
+          </div>
+          {%- endif -%}
           <main>
             {{ content }}
           </main>

@@ -106,10 +106,10 @@
         display: inline-block;
 
         h1.catalogue-title {
-            color: $grey-0;
+            color: $dark-0;
             display: block;
             font-family: $san-serif;
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 700;
             line-height: 1.5;
             letter-spacing: -0.009em;
@@ -117,7 +117,7 @@
             margin-top: -30px;
 
             @media (max-width: $break-small) {
-                  font-size: 22px;
+                  font-size: 20px;
             }
         }
 

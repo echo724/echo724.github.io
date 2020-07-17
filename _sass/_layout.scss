@@ -61,50 +61,7 @@ footer>.footer_wrap {
         }
         // background-color: $grey-3;
       }
-      .category{
-        margin-top: 5px;
-        float:right;
-        display:flex;
-        justify-content: space-between;
-        // input[id *="main-menu"]{
-        //   display: none;
-        // }
-        // input[id *="main-menu"]+label{
-        //   display: block;
-        //   cursor:pointer;
-        // }
-        // input[id *="main-menu"]+label+ #menu{
-        //   max-height: 0;
-        //   transition: all .35s;
-        //   overflow:hidden;
-        // }
-        // input[id *="main-menu"]:checked +label+ #menu{
-        //   max-height: 100px;
-        // }
-        @media (max-width: $break-medium) {
-          margin-top: 0;
-        }
-        .category-items{
-          margin-right: 20px;
-          font-family: $source;
-          display: inline-block;
-          text-transform: uppercase;
-          letter-spacing: 0.03em;
-          padding: 4px 4px;
-          font-size: 16px;
-          font-weight: 900;
-          border-radius: 3px;
-          margin-bottom:0px;
-          @media (max-width: $break-medium) {
-            float:left;
-            margin-top: 8px;
-            font-size: 14px;
-            margin-right: 0;
-          }
-          }
-        }
   }
-
 }
 
 
@@ -117,7 +74,7 @@ footer>.footer_wrap {
 .active {
     // border-bottom: 2px solid $grey-0;
     font-weight: 900;
-    color: $dark-0;
+    color: #000;
 
     @media (max-width: $break-medium) {
       font-weight: 700;
@@ -127,7 +84,7 @@ footer>.footer_wrap {
 .normal {
     font-weight: 300;
     border-style: none;
-    color: $dark-0;
+    color: #000;
     @media (max-width: $break-medium) {
       font-weight: 300;
     }
@@ -285,6 +242,41 @@ footer {
   }
   }
 }
+.category{
+  margin-top: 5px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  @media (max-width: $break-medium) {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .category-items{
+    margin-right: 20px;
+    font-family: $source;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 4px 4px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 3px;
+    margin-bottom:0px;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    a:hover {
+        opacity: .6;
+    }
+    @media (max-width: $break-medium) {
+      float:left;
+      margin-top: 8px;
+      font-size: 16px;
+      margin-right: 10;
+    }
+    }
+  }
+
 main {
   width: 100%;
 }
