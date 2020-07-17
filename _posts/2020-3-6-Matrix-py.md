@@ -3,7 +3,9 @@ tags:
 - project
 - math
 layout: post
+icon: code
 ---
+## Matrix Generator
 [matrix-py](https://github.com/echo724/matrix_python)
 
 This is a Python Module for generating a matrix with only putting informations. This module uses [sympy](https://www.sympy.org/en/index.html), python library for simbolic mathmatics. By using sympy, this module makes sympy Matrix object, and calculate various linear-algebra mathmatics.  
@@ -26,7 +28,7 @@ $ git clone https://github.com/eunchan1001/matrix_python.git
 
 ## Example
 
-```Python
+```python
 from ma import *
 
 foo = new() # makes new sympy Matrix object. You will enter elements

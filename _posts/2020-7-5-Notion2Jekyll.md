@@ -1,13 +1,14 @@
 ---
 tags:
-- projects
+- project
 - notion
 - jekyll
 layout: post
 ---
-[Notion2Jekyll](https://github.com/echo724/notion2jekyll)
 
 [![PyPI version](https://badge.fury.io/py/notion2jekyll.svg)](https://badge.fury.io/py/notion2jekyll)
+
+[Notion2Jekyll](https://github.com/echo724/notion2jekyll)
 
 Jekyll Exporter makes your notion page to [Jekyll Post Markdown](https://jekyllrb-ko.github.io/docs/posts/) file. This is using [notion-py](https://github.com/jamalex/notion-py) to export notion page to markdown.  
 
@@ -27,13 +28,13 @@ Notion2Jekyll provides these features.
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install notion2jekyll.  
 
-```Bash
+```bash
 $pip install notion2jekyll
 ```
 
 ## Usage_Command Line
 
-```Bash
+```bash
 $python -m notion2jekyll
 #Markdown file name: <output file name(without .md)>
 #Token_v2: <your token_v2 on notion.so>
@@ -42,7 +43,7 @@ $python -m notion2jekyll
 
 ## Usage_Jupyter or Ipython
 
-```Python
+```python
 from notion2jekyll import export_out
 from notion.client import NotionClient
 token_v2 = #<your notion token_v2>

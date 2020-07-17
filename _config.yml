@@ -33,12 +33,6 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Collections
-collections:
-  project:
-    output: true
-  blog:
-    output: true
 
 default:
   -
@@ -48,3 +42,4 @@ default:
       layout: post
       post-header: false
       project-header: false
+      icon: code

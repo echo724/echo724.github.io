@@ -1,9 +1,9 @@
 <li class="catalogue-item">
     <a href="{{ page.url | prepend: site.baseurl }}" >
-        {% if page.portfolio == true %}
-        <img src="{{ page.main-img }}" class="catalogue-img"/>
-        {% endif %}
-        <br>
+        <!-- <div class="icon">
+          {% assign ic = page.icon %}
+          <img src="/assets/icons/{{ic}}.svg" alt="test"/>
+        </div> -->
         <div class="catalogue-info transition">
             <h1 class="catalogue-title">
                 {{ page.title }}
