@@ -1,14 +1,12 @@
 ---
 layout: post
 title: "Eunchan Cho"
-subtitle: "A developer who creates convenience."
+subtitle: Hi, I am a developer who pursues simplicity, equality, and harmony.
 header-img: /assets/images/profile.png
 permalink: /about/
 ---
 
 ![/assets/images/profile.png](/assets/images/profile.png){: width: "10px" height: "10px"}
-`편리함`과 `깔끔함`을 추구하는 `개발자` `조은찬`입니다.
-
 # Info.
 
 Email: [eunchan1001@gmail.com](mailto:eunchan1001@gmail.com)
@@ -41,9 +39,9 @@ Email: [eunchan1001@gmail.com](mailto:eunchan1001@gmail.com)
 
 **Language**
 
-- Python: 패키지 개발, 데이터 학습
-- C++: 대학교 수업, 과제
-- Swift: 개인 공부, IOS App 개발
+- Python: Package, Data
+- C++: College Assignment
+- Swift: IOS APP
 
 **Field**
 
@@ -62,12 +60,12 @@ Email: [eunchan1001@gmail.com](mailto:eunchan1001@gmail.com)
 
 **Diablo Valley College / Computer Science**
 
-2018년 6월 - 2020년 5월
+June 2018 - May 2020
 
-미국 캘리포니아
+California, U.S.
 
 **University of California San Diego / Computer Science**
 
-2020년 9월 -
+Oct 2020 -
 
-미국 캘리포니아
+California, U.S.

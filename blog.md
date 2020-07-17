@@ -1,7 +1,7 @@
 ---
 layout: default
 description: how I make it.
-project-header: true
+
 permalink: /blog/
 ---
 <div class="catalogue">

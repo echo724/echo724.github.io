@@ -18,9 +18,19 @@ layout: default
                 {%- endif -%}
                 {% if page.tags != nil %}
                 {% for tag in page.tags %}
-                <span class="catalogue-type">
-                    {{ tag }}
-                </span>
+                  {% if tag == "blog" %}
+                    <span class="catalogue-type-blog">
+                        {{ tag }}
+                    </span>
+                  {% elsif tag == "project" %}
+                    <span class="catalogue-type-project">
+                        {{ tag }}
+                    </span>
+                  {% else %}
+                    <span class="catalogue-type">
+                        {{ tag }}
+                    </span>
+                  {% endif %}
                 {% endfor %}
                 {% endif %}
             <!-- </div> -->

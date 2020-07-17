@@ -14,14 +14,9 @@
               <strong>Echo</strong>'s Tech Blog
             </span>
           </a>
-        </div>
-      </nav>
-      <div class ="main-container">
-        <div class ="wrapper">
-        <div class ="contents">
           {% if page.layout != "post" %}
           <div class ="category">
-            <ul>
+            <ul id="menu">
             {% assign current = page.url | downcase | split: '/' %}
             <li class="category-items">
               <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" or current[1] == "project" %} class="normal" {% endif %} class="active">All</a>
@@ -35,6 +30,13 @@
           </ul>
           </div>
           {% endif %}
+        </div>
+      </nav>
+      <div class ="main-container">
+        <div class ="wrapper">
+        <div class ="contents">
+
+
           <div class ="contents-header">
             {%- if page.post-header == true -%}
                 {% include post-header.html %}

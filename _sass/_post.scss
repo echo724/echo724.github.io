@@ -66,14 +66,14 @@
   padding: 34px 34px;
 	color: #444;
   width: 100%;
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  box-shadow: -6px -6px 20px rgba(#ffffff, 0.8), 5px 5px 12px rgba(#a6b4c8, 0.7);
 	// cursor: pointer;
   @media (max-width: $break-small) {
       margin-top: 0px;
-      box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+
   }
     p {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.6;
         margin: 0 0 10px 0;
         word-break: break-all;
@@ -90,7 +90,7 @@
     img {
         margin: 2px auto;
         box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-        border-radius: 8px
+        border-radius: 20px
     }
 
   }
@@ -184,6 +184,8 @@
 
     ul {
         li {
+            font-weight: 300;
+            font-size: 16px;
             list-style: none;
             padding: 6px 0;
             margin-left: 20px;

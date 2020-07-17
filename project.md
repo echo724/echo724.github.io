@@ -2,7 +2,7 @@
 layout: default
 description: makes the world convenient.
 permalink: /project/
-project-header: true
+
 ---
 
 <div class="catalogue">

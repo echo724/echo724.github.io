@@ -1,7 +1,7 @@
 ---
 layout: default
 description: hello world.
-project-header: true
+
 ---
 <div class="catalogue">
 {%- assign ordered = site.posts -%}

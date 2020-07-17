@@ -25,23 +25,20 @@ footer>.footer_wrap {
     margin: 40px auto;
     margin-top: 0;
     margin-bottom: -30px;
-    border-bottom: 1px solid $grey-3;
+    // background-color: $grey-2;
     // background-color: $grey-0;
     @media (max-width: $break-small) {
         margin-bottom: 0px;
     }
     // background-color: $grey-1;
-
   .nav-container {
       // margin-top:0;
       // margin: 0 auto;
       max-width: 1100px;
-      // background-color: $grey-3;
       box-sizing: border-box;
       margin:0 auto;
       padding: 0 2em;
       @media (max-width: $break-small) {
-          // background-color: $grey-1;
           padding: 0 0px;
       }
       // background-color: $grey-0;
@@ -61,8 +58,52 @@ footer>.footer_wrap {
         margin-left: 10px;
         // background-color: $grey-3;
       }
+      .category{
+        margin-top: 5px;
+        float:right;
+        display:flex;
+        justify-content: space-between;
+        // input[id *="main-menu"]{
+        //   display: none;
+        // }
+        // input[id *="main-menu"]+label{
+        //   display: block;
+        //   cursor:pointer;
+        // }
+        // input[id *="main-menu"]+label+ #menu{
+        //   max-height: 0;
+        //   transition: all .35s;
+        //   overflow:hidden;
+        // }
+        // input[id *="main-menu"]:checked +label+ #menu{
+        //   max-height: 100px;
+        // }
+        @media (max-width: $break-medium) {
+          margin-top: 0;
+        }
+        .category-items{
+          margin-right: 20px;
+          font-family: $source;
+          display: inline-block;
+          text-transform: uppercase;
+          letter-spacing: 0.03em;
+          padding: 4px 4px;
+          font-size: 16px;
+          font-weight: 900;
+          border-radius: 3px;
+          margin-bottom:0px;
+          @media (max-width: $break-medium) {
+            float:left;
+            margin-top: 8px;
+            font-size: 14px;
+            margin-right: 0;
+          }
+          }
+        }
   }
+
 }
+
 
   ul {
       list-style-type: none;
@@ -70,44 +111,27 @@ footer>.footer_wrap {
       padding: 0;
   }
 
-
-.nav-container {
-  li {
-      font-family: $san-serif;
-      display: inline-block;
-      margin: 0 40px 0 0;
-      &:last-child {
-          margin-right: 0;
-      }
-      background-color: $grey-3;
-      @media (max-width: $break-small) {
-          text-align: center;
-          margin: 0 24px 0 0;
-          font-size: 16px;
-      }
-
-  }
-    li:hover {
-          opacity: 0.5;
-    }
-}
-
 .active {
-    padding-bottom: 6px;
-    border-bottom: 2px solid $grey-0;
+    // border-bottom: 2px solid $grey-0;
     font-weight: 900;
     color: $dark-0;
+
+    @media (max-width: $break-medium) {
+      font-weight: 700;
+    }
 }
 
 .normal {
     font-weight: 300;
     border-style: none;
-    padding-bottom: 0;
     color: $dark-0;
+    @media (max-width: $break-medium) {
+      font-weight: 300;
+    }
 }
 
 a {
-    font-weight: 200;
+    font-weight: 300;
     color: $dark-0;
 }
 
@@ -116,7 +140,6 @@ a {
 footer {
     font-family: $san-serif;
     padding: 0.5em 0.5em;
-    background-color: $white;
     color: $grey-1;
     border-top: 1px solid $grey-3;
     text-align: center;
@@ -165,33 +188,9 @@ footer {
       padding:0 1em;
       margin-top: 10px;
   }
-  .category{
-    margin-top: 20px;
-    background: $white;
-    display:flex;
-    justify-content: space-around;
-    @media (max-width: $break-medium) {
-      margin-top: 0;
-    }
-    .category-items{
-      font-family: $source;
-      color: $white;
-      display: inline-block;
-      margin-bottom: 2px;
-      text-transform: uppercase;
-      letter-spacing: 0.03em;
-      padding: 4px 4px;
-      font-size: 20px;
-      font-weight: 900;
-      margin-bottom: 10px;
-      border-radius: 3px;
-      @media (max-width: $break-medium) {
-        font-size: 16px;
-        margin-bottom:0px;
-      }
-      }
-    }
+
   .contents{
+    z-index: 1;
     width: calc((100% - 290px) );
     box-sizing: border-box;
     display: block;
@@ -214,10 +213,9 @@ footer {
     position: sticky;
     width: 290px;
     font-size: 15.5px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    box-shadow: -6px -6px 20px rgba(#ffffff, 0.8), 5px 5px 12px rgba(#a6b4c8, 0.7);
     padding: 1.5em;
-    background: $white;
-    // border-radius: 8px;
+    background-color: $white;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -256,7 +254,10 @@ footer {
         .name{
           margin-top:10px;
           font-size: 20px;
-          font-weight: 500;
+          font-weight: 700;
+        }
+        .name:hover{
+          opacity: .6;
         }
         .bio{
           font-weight: 300;
@@ -264,11 +265,12 @@ footer {
         }
         .accounts {
             margin-top: 20px;
+            margin-bottom: -10px;
             a {
                 margin: 10px;
                 svg {
-                    fill: $dark-0;
-                    width: 20px;
+                    // fill: $dark-0;
+                    width: 24px;
                 }
             }
             a:hover {

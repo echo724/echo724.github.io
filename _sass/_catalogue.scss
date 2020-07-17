@@ -9,20 +9,21 @@
   }
   margin-top: 20px;
   padding-bottom:10px;
+	z-index:1;
     &-item {
+
         border-radius: 20px;
-        box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+				box-shadow: -6px -6px 20px rgba(#ffffff, 0.8), 5px 5px 12px rgba(#a6b4c8, 0.7);
         // border-top: 1px solid $grey-2;
         padding: 20px 20px;
         list-style: none;
         margin-bottom: 20px;
-        // background-color: $white;
+        background-color: $white;
         // margin-left: 2%;
         // margin-right: 2%;
         @media (max-width: $break-medium) {
-          box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 					margin-bottom: 10px;
-        }
+				}
     &:first-child{
         margin-top: 0px;
     }
@@ -42,14 +43,44 @@
       letter-spacing: 0.03em;
       padding: 4px 4px;
       font-size: 10px;
-      font-weight: 900;
+      font-weight: 600;
       margin-bottom: 10px;
-      background-color: $skyblue;
+      background-color: $green;
       border-radius: 3px;
 
       @media (max-width: $break-medium) {
           margin: 10px 0;
       }
+			&-blog{
+				font-family: $san-serif;
+	      color: $white;
+	      display: inline-block;
+	      margin-bottom: 2px;
+	      text-transform: uppercase;
+	      letter-spacing: 0.03em;
+	      padding: 4px 4px;
+	      font-size: 10px;
+	      font-weight: 600;
+	      margin-bottom: 10px;
+	      border-radius: 3px;
+				background-color: $yellow;
+
+			}
+			&-project{
+				font-family: $san-serif;
+	      color: $white;
+	      display: inline-block;
+	      margin-bottom: 2px;
+	      text-transform: uppercase;
+	      letter-spacing: 0.03em;
+	      padding: 4px 4px;
+	      font-size: 10px;
+	      font-weight: 600;
+	      margin-bottom: 10px;
+	      border-radius: 3px;
+				background-color: $skyblue;
+
+			}
     }
 
     &-tag {
@@ -61,7 +92,7 @@
         letter-spacing: 0.03em;
         padding: 4px 4px;
         font-size: 10px;
-        font-weight: 900;
+        font-weight: 600;
         margin-bottom: 10px;
         background-color: $red;
         border-radius: 3px;
