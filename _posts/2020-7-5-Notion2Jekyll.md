@@ -15,12 +15,10 @@ Notion2Jekyll provides these features.
     `yyyy-m-dd-<your page's title>`
 
 2. Puts [front matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/)s to the markdown file.
-
   - `tags`
-
   - `layout: post`
 
-3. Download images in your notion page, and automatically set the image path in the md file 
+3. Download images in your notion page, and automatically set the image path in the md file
 
     `You need to rename the path when you upload in your blog`
 
@@ -28,13 +26,13 @@ Notion2Jekyll provides these features.
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install notion2jekyll.  
 
-```Bash
+```bash
 $pip install notion2jekyll
 ```
 
 ## Usage_Command Line
 
-```Bash
+```bash
 $python -m notion2jekyll
 #Markdown file name: <output file name(without .md)>
 #Token_v2: <your token_v2 on notion.so>
@@ -46,14 +44,14 @@ $python -m notion2jekyll
 > I changed the way to use the jekyll exporter. Please follow these examples.
 
 ### With nothing
-```Python
+```python
 from notion2jekyll import *
 
 export_cli()
 ```
 
 ### With token_v2 & url
-```Python
+```python
 from notion2jekyll import *
 token_v2 = #<your notion token_v2>
 url = #<your notion page url>
@@ -62,7 +60,7 @@ export_out(url,token_v2)
 ```
 
 ### With token_v2 & url & Notion-py Block
-```Python
+```python
 from notion2jekyll import *
 
 token_v2 = #<your notion token_v2>
@@ -76,11 +74,8 @@ export_in(block,client)
 
 
 ## Aditional Info
-
 - Exporter will make the md file and images in the folder named `posts` and `posts/<your block title>`
-
 - The url should be the page that you want to export.
-
 - The front matter in the markdown will be different based on your jekyll blog variables. So, change the front matters when you finish the export, or change the code in this project.
 
 ## Contributing

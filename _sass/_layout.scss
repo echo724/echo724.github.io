@@ -23,7 +23,7 @@ footer>.footer_wrap {
     overflow: auto;
     padding: 10px;
     margin: 40px auto;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: -30px;
     // background-color: $grey-2;
     // background-color: $grey-0;
@@ -41,25 +41,50 @@ footer>.footer_wrap {
       @media (max-width: $break-small) {
           padding: 0 0px;
       }
-      // background-color: $grey-0;
-      img{
-        width: 35px;
-        height:35px;
-        float: left;
-        margin:5px;
-        // background-color: $grey-2;
-        // background-color: $dark-0;
-      }
       .blog-name{
+        font-size: 24px;
         font-family: $source;
-        font-weight: 300;
+        font-weight: 100;
         float:left;
-        margin-top: 8px;
-        margin-left: 10px;
-        @media (max-width: $break-small) {
-            margin-top: 10px
+        margin-top: 5px;
+        code{
+          .badge {
+             display: inline-block;
+             position: relative;
+             margin-bottom:-5px;
+             padding: 12px 4px;
+             background-color: $grey-2;
+             font-weight: 700;
+             animation: blink-animation 1s steps(5, start) infinite alternate;
+             -webkit-animation: blink-animation 1s steps(5, start) infinite alternate;
+          }
+          @keyframes blink-animation {
+             from {
+                 visibility: visibility;
+             }
+             to {
+                 visibility: hidden;
+             }
+          }
+          @-webkit-keyframes blink-animation {
+             from {
+                 visibility: visibility;
+             }
+             to {
+                 visibility: hidden;
+             }
+          }
+          color: $dark-0;
         }
-        // background-color: $grey-3;
+        @media (max-width: $break-medium) {
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+      }
+      .blog-name:hover{
+        opacity: 0.6;
       }
   }
 }
@@ -128,7 +153,7 @@ footer {
   padding: 0px;
   box-sizing: border-box;
   display: block;
-  margin-top: 30px;
+  margin-top: 20px;
   @media (max-width: $break-small) {
     margin: 0;
   }
@@ -245,34 +270,24 @@ footer {
 .category{
   margin-top: 5px;
   display:flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-around;
   @media (max-width: $break-medium) {
     margin-top: 0;
     margin-bottom: 20px;
   }
   .category-items{
-    margin-right: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
     font-family: $source;
     display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    padding: 4px 4px;
-    font-size: 12px;
-    font-weight: 900;
-    border-radius: 3px;
-    margin-bottom:0px;
     color: $dark-0;
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
     a:hover {
         opacity: .6;
     }
     @media (max-width: $break-medium) {
-      float:left;
       margin-top: 8px;
-      font-size: 16px;
-      margin-right: 10;
     }
     }
   }

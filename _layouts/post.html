@@ -8,33 +8,29 @@ layout: default
         </h1>
         <h2 class="post-subtitle">
             {{ page.subtitle }}
-            <br>
-
-            <!-- <div class="post-type-tag"> -->
-                {%- if page.draft == true -%}
-                <span class="catalogue-tag">
-                    Coming Soon
-                </span>
-                {%- endif -%}
-                {% if page.tags != nil %}
-                {% for tag in page.tags %}
-                  {% if tag == "blog" %}
-                    <span class="catalogue-type-blog">
-                        {{ tag }}
-                    </span>
-                  {% elsif tag == "project" %}
-                    <span class="catalogue-type-project">
-                        {{ tag }}
-                    </span>
-                  {% else %}
-                    <span class="catalogue-type">
-                        {{ tag }}
-                    </span>
-                  {% endif %}
-                {% endfor %}
-                {% endif %}
-            <!-- </div> -->
         </h2>
+          {%- if page.draft == true -%}
+            <span class="catalogue-tag">
+                Coming Soon
+            </span>
+            {%- endif -%}
+            {% if page.tags != nil %}
+            {% for tag in page.tags %}
+              {% if tag == "blog" %}
+                <span class="catalogue-type-blog">
+                    {{ tag }}
+                </span>
+              {% elsif tag == "project" %}
+                <span class="catalogue-type-project">
+                    {{ tag }}
+                </span>
+              {% else %}
+                <span class="catalogue-type">
+                    {{ tag }}
+                </span>
+              {% endif %}
+            {% endfor %}
+            {% endif %}
     </div>
     {%- if page.draft == true -%}
         <div class="catalogue-draft-message">
