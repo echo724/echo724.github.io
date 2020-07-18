@@ -5,54 +5,79 @@ tags:
 - jekyll
 layout: post
 ---
-
 [![PyPI version](https://badge.fury.io/py/notion2jekyll.svg)](https://badge.fury.io/py/notion2jekyll)
-
-[Notion2Jekyll](https://github.com/echo724/notion2jekyll)
 
 Jekyll Exporter makes your notion page to [Jekyll Post Markdown](https://jekyllrb-ko.github.io/docs/posts/) file. This is using [notion-py](https://github.com/jamalex/notion-py) to export notion page to markdown.  
 
 Notion2Jekyll provides these features.  
 
-1. Export a markdown file formatted as the jekyll-post format (`yyyy-m-dd-<your page's title>`) from your notion page.
+1. Exports your notion page to the markdown file named as the jekyll-post title:
+    `yyyy-m-dd-<your page's title>`
 
-2. Makes [front matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/)s to the markdown file.
+2. Puts [front matter](https://jekyllrb.com/docs/step-by-step/03-front-matter/)s to the markdown file.
 
   - `tags`
 
   - `layout: post`
 
-3. Download images in your notion page, and automatically set the image path in the md file( `You need to rename the path when you upload in your blog` ).
+3. Download images in your notion page, and automatically set the image path in the md file 
+
+    `You need to rename the path when you upload in your blog`
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install notion2jekyll.  
 
-```bash
+```Bash
 $pip install notion2jekyll
 ```
 
 ## Usage_Command Line
 
-```bash
+```Bash
 $python -m notion2jekyll
 #Markdown file name: <output file name(without .md)>
 #Token_v2: <your token_v2 on notion.so>
 #Notion Page Url: <your notion page to export>
 ```
 
-## Usage_Jupyter or Ipython
+## Usage in Python
 
-```python
-from notion2jekyll import export_out
-from notion.client import NotionClient
+> I changed the way to use the jekyll exporter. Please follow these examples.
+
+### With nothing
+```Python
+from notion2jekyll import *
+
+export_cli()
+```
+
+### With token_v2 & url
+```Python
+from notion2jekyll import *
 token_v2 = #<your notion token_v2>
 url = #<your notion page url>
 
 export_out(url,token_v2)
 ```
 
-- Exporter will make the md file and images in `./jekyllpost_output/` and `./jekyllpost_output/<your block title>/`
+### With token_v2 & url & Notion-py Block
+```Python
+from notion2jekyll import *
+
+token_v2 = #<your notion token_v2>
+url = #<your notion page url>
+
+client = NotionClient(token_v2=token_v2)
+block = client.get_block(url)
+
+export_in(block,client)
+```
+
+
+## Aditional Info
+
+- Exporter will make the md file and images in the folder named `posts` and `posts/<your block title>`
 
 - The url should be the page that you want to export.
 
