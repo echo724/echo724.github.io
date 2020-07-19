@@ -283,15 +283,28 @@ footer {
     color: $dark-0;
     width: 34px;
     height: 34px;
+    svg{
+      stroke:$grey-0;
+    }
     a:hover {
-        opacity: .6;
+         opacity: 0.6;
+
     }
     @media (max-width: $break-medium) {
       margin-top: 8px;
     }
     }
   }
-
+.active{
+  svg{
+    stroke-width:1.4px;
+  }
+}
+.normal{
+  svg{
+    stroke-width:1px;
+  }
+}
 main {
   width: 100%;
 }
