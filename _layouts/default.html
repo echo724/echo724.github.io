@@ -3,13 +3,13 @@
 
   {% include head.html %}
   {% if page.math %}
-  {% include mathjax_support.html %}
+    {% include mathjax.html %}
   {% endif %}
+
   <body>
       <nav class="nav">
         <div class="nav-container">
           <a class="transition" href="{{ '' | prepend: site.baseurl }}/">
-            <!-- <img src ="/assets/logo.png"> -->
             <span class="blog-name">
               <code>> <strong>echo</strong> "Tech Blog"<div class="badge"></div></code>
             </span>
