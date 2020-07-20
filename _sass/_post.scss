@@ -315,7 +315,7 @@ sup {
   font-size: 16px;
   font-family: $san-serif;
   font-weight: 300;
-  margin-top:10px;
+  float: right;
 }
 
 .catalogue-tag {
@@ -416,4 +416,9 @@ sup {
 
 video {
     margin-bottom: 16px;
+}
+
+.comment{
+  margin-top:34px;
+  border-top: 1px solid $grey-3;
 }

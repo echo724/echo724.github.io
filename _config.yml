@@ -25,7 +25,7 @@ author:
 # Custom vars
 version:
 github:
-  repo:
+  repo: echo724/echo724.github.io
 
 # Plugins
 highlighter: rouge

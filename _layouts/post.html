@@ -31,6 +31,11 @@ layout: default
               {% endif %}
             {% endfor %}
             {% endif %}
+            {%- if page.date -%}
+            <span class="post-date">
+                {{ page.date | date: "%d %b, %Y" }}
+            </span>
+            {%- endif -%}
     </div>
     {%- if page.draft == true -%}
         <div class="catalogue-draft-message">
@@ -43,11 +48,5 @@ layout: default
 <!--큐레이션 영역-->
     {{ content }}
 
-    {%- if page.date -%}
-    <div class="post-date">
-        {{ page.date | date: "%d %b, %Y" }}
-    </div>
-    {%- endif -%}
-    <!--
-    {% include share.html %} -->
+    {% include comment.html %}
 </div>
