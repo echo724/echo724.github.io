@@ -316,6 +316,10 @@ sup {
   font-family: $san-serif;
   font-weight: 300;
   float: right;
+  margin-top:5px;
+  @media (max-width: $break-small) {
+      margin-top: 4px;
+  }
 }
 
 .catalogue-tag {

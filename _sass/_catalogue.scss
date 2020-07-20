@@ -44,9 +44,6 @@
       background-color: $grey-3;
       border-radius: 3px;
 
-      @media (max-width: $break-medium) {
-          margin: 10px 0;
-      }
 			&-blog{
 				font-family: $san-serif;
 	      color: $yellow;
@@ -93,9 +90,6 @@
         background-color: $grey-3;
         border-radius: 3px;
 
-        @media (max-width: $break-medium) {
-            margin: 10px 0;
-        }
 
     }
 
