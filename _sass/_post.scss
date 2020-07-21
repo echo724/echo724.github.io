@@ -127,8 +127,7 @@
 
     a {
         word-break:break-all;
-        color: $dark-0;
-        font-size: 18px;
+        font-size: 14.5px;
         font-weight: 400;
         transition: all 0.2s ease-in-out;
         background-position: 0% 100%, 110% 90%, 0% 98%;
@@ -424,5 +423,6 @@ video {
 
 .comment{
   margin-top:34px;
-  border-top: 1px solid $grey-3;
+  padding-top: 17px;
+  border-top: 1px solid $grey-2;
 }

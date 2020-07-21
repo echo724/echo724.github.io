@@ -7,9 +7,10 @@ code {
 code {
   background-color: $grey-3;
   border-radius: 3px;
-  color: $red;
+  color: $grey-0;
   font-size: 100%;
   padding: .2em .4em;
+  font-size: 14.5px;
 }
 
 pre {
@@ -22,7 +23,7 @@ pre code {
   color: inherit;
   font-size: 100%;
   padding: 0;
-  font-size: 16px;
+  font-size: 14.5px;
 
 }
 
