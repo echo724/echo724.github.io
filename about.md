@@ -6,57 +6,33 @@ header-img: /assets/images/profile.png
 permalink: /about/
 ---
 
-![/assets/images/profile.png](/assets/images/profile.png){: width: "10px" height: "10px"}
-# Info.
-
-Email: [eunchan1001@gmail.com](mailto:eunchan1001@gmail.com)
-
-***
-
+![/assets/images/profile.png](/assets/images/profile.png){:height="400px" width="400px"}
 # Channels.
-
-[Minicar's_Blog](https://www.notion.so/minicar/Minicar-s_Blog-1271c8a4ce8248ff855d162d46e3524e)
-
-[Facebook](https://www.facebook.com/eunchan1001/)
-
-[eunchan1001 - Overview](https://github.com/eunchan1001)
-
-[Profile of eunchan1001](https://pypi.org/user/eunchan1001/)
-
 ***
-
+<div class = "about-accounts">
+  {% include accounts.html %}
+</div>
 # Intro.
-
-미국에서 컴퓨터 과학 전공으로 대학을 다니고 있습니다. 추가로 딥러닝과 데이터 학습 공부를 하고 있습니다. AI Eingneer를 목표로 학습 중 입니다.
-
-개발을 하는 가장 큰 이유는 귀찮기 싫어서 입니다. 어떻게 해서든 일 하나를 줄여주는 프로그램을 개발하고 만듭니다.
-
-때론 개발 환경을 깔끔하게 정리하고 꾸미는 것을 더 좋아합니다. (vim유저 입니다)
-
 ***
+> 한국어
+
+안녕하세요. 간단함, 평등함, 그리고 조화로움을 추구하는 개발자 조은찬입니다. 이 세가지 키워드에 맞게 개발을 하려고 노력하고 있습니다.
+아직 전문 분야는 없고, 파이썬을 주 언어로 사용하여, 프로그램을 만들고 있습니다. 자동화를 좋아하며, 귀찮은 일은 최대한 줄이는 프로그램을 만들기를 좋아합니다.
+현재는, 웹과 딥러닝에 대해 관심이 생겨 공부 중입니다. 웹에 대한 생각이 없다가 이번에 코로나를 통해 앞으로는 더더욱 웹에 대한 이동이 커질 것이며, 모든 사용자가 가장 쉽게 사용하고 인터렉트할 수 있는 공간이 웹이란 생각이 들어 공부 중 입니다.
+딥러닝 또한 미래에 새로운 산업형태의 전환점이란 생각이 들어 공부 중입니다. 딥러닝과 웹 개발을 통해 사용자 친화적인 딥러닝 솔루션을 제작하려고 노력 중 입니다.
+
+> English
+
+Hi, I am a developer who pursues simplicity, equality, and harmony.
+
+
 
 # Skill.
-
-**Language**
-
-- Python: Package, Data
-- C++: College Assignment
-- Swift: IOS APP
-
-**Field**
-
-- Development: 개인 계산 패키지 배포
-- Data:
-- Infra
-- Server
-
 ***
-
-# Career.
-
-***
+{% include resume.html %}
 
 # Background.
+***
 
 **Diablo Valley College / Computer Science**
 

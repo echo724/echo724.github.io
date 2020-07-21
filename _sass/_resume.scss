@@ -1,9 +1,9 @@
 .second-label {
-    margin: 80px 0 20px 0;
+    margin: 20px 0 0px 0;
     font-family: $san-serif;
     font-size: 18px;
     font-weight: 600;
-    color: $red;
+    color: $grey-1;
     vertical-align: middle;
 
     .label-emoji {
@@ -14,7 +14,7 @@
 
 div.resume-info {
     position: relative;
-
+    font-weight: 200;
     svg {
         width: 24px;
         fill: $blue;
@@ -27,13 +27,12 @@ div.resume-info {
     .project {
         width: 100%;
         padding: 30px 0;
-        border-top: 1px solid $dark-3;
 
         .project-name {
             font-family: $san-serif;
             font-size: 20px;
             font-weight: 700;
-            width: 42%;
+            width: 100%;
             float: left;
 
             @media (max-width: $break-small) {
@@ -92,7 +91,7 @@ section.skill {
         fill: $blue;
         position: absolute;
     }
-    padding-bottom: 72px;
+    padding-bottom: 0px;
 
     li.skill_name {
         display: inline-block;
@@ -100,7 +99,7 @@ section.skill {
         padding: 4px 14px;
         border-radius: 100px;
         border: solid 1px $grey-2;
-        font-size: 16px;
+        font-size: 14px;
         margin: 0 8px 14px 0;
     }
 }
@@ -118,4 +117,29 @@ section.skill {
     animation-name: moving;
     animation-duration: 0.6s;
     animation-timing-function: ease-in-out;
+}
+
+.about-accounts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .accounts {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+      margin-bottom: -10px;
+
+      a {
+          margin: 30px;
+          background-image: none;
+          svg {
+              // fill: $dark-0;
+              width: 35px;
+              border-bottom:none;
+          }
+      }
+      a:hover {
+          opacity: .6;
+      }
+  }
 }

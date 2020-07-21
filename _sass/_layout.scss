@@ -42,12 +42,13 @@ footer>.footer_wrap {
           padding: 0 0px;
       }
       .blog-name{
-        font-size: 24px;
+
         font-family: $source;
-        font-weight: 100;
         float:left;
         margin-top: 5px;
         code{
+          font-size: 20px;
+          font-weight: 100;
           .badge {
              display: inline-block;
              position: relative;
@@ -75,12 +76,11 @@ footer>.footer_wrap {
              }
           }
           color: $dark-0;
+          @media (max-width: $break-medium) {
+              font-size: 18px;
+          }
         }
-        @media (max-width: $break-medium) {
-            font-size: 20px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
+
 
       }
       .blog-name:hover{
