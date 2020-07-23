@@ -6,7 +6,7 @@ header-img: /assets/images/profile.png
 permalink: /about/
 ---
 
-![/assets/images/profile.png](/assets/images/profile.png){:height="400px" width="400px"}
+![/assets/images/profile.png](/assets/images/profile.png)
 # Channels.
 ***
 <div class = "about-accounts">

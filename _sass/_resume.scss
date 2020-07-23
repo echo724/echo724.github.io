@@ -132,6 +132,13 @@ section.skill {
       a {
           margin: 30px;
           background-image: none;
+
+          @media (max-width: $break-medium) {
+              margin: 20px;
+          }
+          @media (max-width: $break-small) {
+              margin: 10px;
+          }
           svg {
               // fill: $dark-0;
               width: 35px;
