@@ -1,4 +1,3 @@
-
 //post header
 
 .post-header {
@@ -17,62 +16,32 @@
 
 .project-header {
         margin-top:20px;
-        margin-left: 0;
+        margin-left: 10px;
         margin-bottom: 20px;
         font-family: $source;
         color: $grey-0;
         text-align: left;
         left: 0px;
-        border-bottom: 1px solid $grey-2;
         @media (max-width: $break-medium) {
-            margin-left: 0px;
-            margin-top:10px;
-            margin-bottom:10px;
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom:20px;
         }
         .header-project-title {
         font-weight: 100;
         font-size: 34px;
-        code{
-          .badge {
-             display: inline-block;
-             position: relative;
-             margin-bottom:-5px;
-             padding: 16px 5px;
-             background-color: $grey-0;
-             font-weight: 700;
-             font-size: 20px;
-             animation: blink-animation 1s steps(5, start) infinite alternate;
-             -webkit-animation: blink-animation 1s steps(5, start) infinite alternate;
-          }
-          @keyframes blink-animation {
-             from {
-                 visibility: visibility;
-             }
-             to {
-                 visibility: hidden;
-             }
-          }
-          @-webkit-keyframes blink-animation {
-             from {
-                 visibility: visibility;
-             }
-             to {
-                 visibility: hidden;
-             }
-          }
-          color: $dark-0;
-        }
+
         @media (max-width: $break-medium) {
             font-size: 25px;
         }
     }
     .header-project-des {
         display: flex;
-        font-weight: 300;
-        font-size: 20px;
-        color: $grey-1;
+        font-weight: 700;
+        font-size: 24px;
+        color: rgba($dark-0,0.7);
         @media (max-width: $break-small) {
-            font-size: 17px;
+            font-size: 20px;
         }
     }
 }
@@ -301,7 +270,7 @@ sup {
     margin-top:10px;
     margin-bottom: 10px;
     padding: 10px 0 0px 0;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     color: $grey-1;
     line-height: 1.5;

@@ -38,6 +38,7 @@ footer>.footer_wrap {
       box-sizing: border-box;
       margin:0 auto;
       padding: 0 2em;
+
       @media (max-width: $break-small) {
           padding: 0 0px;
       }
@@ -47,14 +48,15 @@ footer>.footer_wrap {
         float:left;
         margin-top: 5px;
         code{
-          font-size: 20px;
+          color: rgba($dark-0,0.7);
+          font-size: 28px;
           font-weight: 100;
           .badge {
              display: inline-block;
              position: relative;
              margin-bottom:-5px;
              padding: 12px 4px;
-             background-color: $grey-2;
+             background-color: rgba($grey-1,0.3);
              font-weight: 700;
              animation: blink-animation 1s steps(5, start) infinite alternate;
              -webkit-animation: blink-animation 1s steps(5, start) infinite alternate;
@@ -75,9 +77,9 @@ footer>.footer_wrap {
                  visibility: hidden;
              }
           }
-          color: $dark-0;
+
           @media (max-width: $break-medium) {
-              font-size: 18px;
+              font-size: 24px;
           }
         }
 
@@ -268,12 +270,11 @@ footer {
   }
 }
 .category{
-  margin-top: 5px;
+  margin-top: 40px;
   display:flex;
   justify-content: space-around;
   @media (max-width: $break-medium) {
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .category-items{
     margin-right: 30px;
@@ -283,9 +284,6 @@ footer {
     color: $dark-0;
     width: 34px;
     height: 34px;
-    svg{
-      stroke:$grey-0;
-    }
     a:hover {
          opacity: 0.6;
 
@@ -297,11 +295,13 @@ footer {
   }
 .active{
   svg{
+    color: $grey-0;
     stroke-width:1.4px;
   }
 }
 .normal{
   svg{
+    stroke: $grey-1;
     stroke-width:1px;
   }
 }

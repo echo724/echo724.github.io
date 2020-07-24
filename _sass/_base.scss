@@ -75,17 +75,17 @@ td {
 }
 
 ::selection {
-    background: $grey-2;
+    background: $grey-1;
     color: #FFF;
     text-shadow: none;
 }
 ::-moz-selection {
-    background: $grey-2;
+    background: $grey-1;
     color: #FFF;
     text-shadow: none;
 }
 ::-webkit-selection {
-    background: $grey-2;
+    background: $grey-1;
     color: #FFF;
     text-shadow: none;
 }

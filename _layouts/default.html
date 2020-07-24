@@ -20,12 +20,6 @@
         <div class ="wrapper">
         <div class ="contents">
           {%- if page.layout != "post" -%}
-          <div class ="contents-header">
-            {%- if page.post-header == true -%}
-                {% include post-header.html %}
-            {%- endif -%}
-                {% include project-header.html %}
-          </div>
           <div class ="category">
             <ul id="menu">
             {% assign current = page.url | downcase | split: '/' %}
@@ -62,6 +56,9 @@
               </a>
             </li>
           </ul>
+          </div>
+          <div class ="contents-header">
+                {% include project-header.html %}
           </div>
           {%- endif -%}
           <main>

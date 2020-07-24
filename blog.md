@@ -1,6 +1,6 @@
 ---
 layout: default
-description: how I make it.
+description: Blog
 
 permalink: /blog/
 ---

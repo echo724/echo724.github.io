@@ -1,6 +1,6 @@
 ---
 layout: default
-description: makes the world convenient.
+description: Project
 permalink: /project/
 
 ---
