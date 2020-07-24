@@ -100,7 +100,7 @@
             font-weight: 700;
             line-height: 1.5;
             position: relative;
-
+						word-break:keep-all;
             @media (max-width: $break-small) {
                   font-size: 20px;
             }
