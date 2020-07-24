@@ -40,9 +40,8 @@
       padding: 4px 4px;
       font-size: 10px;
       font-weight: 600;
-      margin-bottom: 10px;
       background-color: $grey-3;
-      border-radius: 3px;
+      border-radius: 8px;
 
 			&-blog{
 				font-family: $san-serif;
@@ -54,8 +53,7 @@
 	      padding: 4px 4px;
 	      font-size: 10px;
 	      font-weight: 600;
-	      margin-bottom: 10px;
-	      border-radius: 3px;
+	      border-radius: 8px;
 				background-color: $grey-3;
 
 			}
@@ -69,8 +67,7 @@
 	      padding: 4px 4px;
 	      font-size: 10px;
 	      font-weight: 600;
-	      margin-bottom: 10px;
-	      border-radius: 3px;
+	      border-radius: 8px;
 				background-color: $grey-3;
 
 			}
@@ -86,9 +83,8 @@
         padding: 4px 4px;
         font-size: 10px;
         font-weight: 600;
-        margin-bottom: 10px;
         background-color: $grey-3;
-        border-radius: 3px;
+        border-radius: 8px;
 
 
     }
@@ -116,16 +112,14 @@
         }
 
         p.catalogue-sub {
-            font-size: 18px;
+            font-size: 16px;
+						font-weight: 400;
             color: $grey-1;
             line-height: 1.75;
-            padding-bottom: 24px;
-
             @media (max-width: $break-small) {
                 font-size: 16px;
             }
         }
-
         p.catalogue-body {
             font-size: 16px;
             color: $grey-1;
