@@ -23,7 +23,7 @@ permalink: /about/
 
 > English
 
-Hi, I am a developer who pursues simplicity, equality, and harmony.
+Hi, I am a developer who pursues simplicity, equality, and harmony. I try to develop every product based on these keywords. I haven't specialized in some field, but I try to increase my domain on Web and DeepLearning. What I think is that shortly, the web will be more critical than before, and the DeepLearning will also be the game-changer that change the World's industry form. Following these trends, I will become a developer who can deal with new technologies and can build innovative programs based on these skills.
 
 
 
