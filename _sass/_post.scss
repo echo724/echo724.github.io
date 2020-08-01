@@ -15,33 +15,35 @@
 //project header
 
 .project-header {
+        padding-bottom: 15px;
         margin-top:20px;
-        margin-left: 10px;
-        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-bottom: 0px;
         font-family: $source;
         color: $grey-0;
         text-align: left;
         left: 0px;
+        border-bottom: 1px solid rgba($dark-0,0.2);
         @media (max-width: $break-medium) {
-            margin-left: 10px;
-            margin-top: 10px;
-            margin-bottom:20px;
+            margin-left: 0px;
+            margin-top: 20px;
+            margin-bottom:0px;
         }
         .header-project-title {
         font-weight: 100;
         font-size: 34px;
 
         @media (max-width: $break-medium) {
-            font-size: 25px;
+            font-size: 24px;
         }
     }
     .header-project-des {
         display: flex;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 26px;
         color: rgba($dark-0,0.7);
-        @media (max-width: $break-small) {
-            font-size: 20px;
+        @media (max-width:  $break-medium) {
+            font-size: 24px;
         }
     }
 }
@@ -67,16 +69,16 @@
       padding: 34px 20px;
   }
     p {
-        margin-top:10px;
-        font-size: 14.5px;
+        margin-top:5px;
+        font-size: 18px;
         line-height: 2;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         font-family: $san-serif;
         font-weight: 400;
         letter-spacing: 0.02em;
-        // @media (max-width: $break-small) {
-        //     font-size: 13px;
-        // }
+        @media (max-width: $break-small) {
+            font-size: 14px;
+        }
 
     sup {
         a.footnote {
@@ -113,11 +115,12 @@
     }
 
     h1 {
-        padding: 40px 0 16px 0;
+        padding: 40px 0 5px 0;
+        margin-bottom: 20px;
         font-weight: 700;
         font-size: 28px;
         letter-spacing: -0.009em;
-
+        border-bottom: 1px solid $grey-6;
     }
 
     h1:first-child {
@@ -209,7 +212,7 @@
         margin: 50px 0;
         width: 100%;
         padding: 32px 0;
-        border: 1px solid $grey-5;
+        border: 1px solid $grey-6;
         border-radius: 6px;
         font-size: 16px;
         color: $grey-0;
@@ -251,7 +254,9 @@ sup {
 .post-type-tag {
     margin: 32px 0;
 }
-
+.post-info{
+    margin-bottom: 50px;
+}
 .post-info>h1.post-title {
     padding: 0 0 0px 0;
     font-weight: 700;
@@ -259,23 +264,24 @@ sup {
     font-family: $san-serif;
     line-height: 1.2;
     letter-spacing: -0.009em;
-
-    @media (max-width: $break-small) {
-        font-size: 28px;
+    margin-bottom: 0px;
+    border: none;
+    @media (max-width: $break-medium) {
+        font-size: 24px;
         line-height: 1.4em;
     }
 }
 
 .post-info>h2.post-subtitle {
-    margin-top:10px;
+    margin-top:5px;
     margin-bottom: 10px;
     padding: 10px 0 0px 0;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: $grey-1;
     line-height: 1.5;
-    @media (max-width: $break-small) {
-        font-size: 18px;
+    @media (max-width: $break-medium) {
+        font-size: 20px;
     }
 }
 .post-date{
@@ -354,7 +360,7 @@ sup {
 
 // portfolio
 .portfolio-info {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     width: 100%;
     border: 1px solid #D8E0E7;
     border-radius: 6px;
@@ -399,5 +405,5 @@ video {
 hr{
   margin-top:-10px;
   border: none;
-  border-top: 0.1px solid $grey-2;
+  border-top: 1px solid $grey-6;
 }

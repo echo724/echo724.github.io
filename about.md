@@ -20,6 +20,7 @@ permalink: /about/
 
 Hi, I am a developer who pursues simplicity, equality, and harmony. I try to develop every product based on these keywords. I haven't specialized in some field, but I try to increase my domain on Web and DeepLearning. What I think is that shortly, the web will be more critical than before, and the DeepLearning will also be the game-changer that change the World's industry form. Following these trends, I will become a developer who can deal with new technologies and can build innovative programs based on these skills.
 
+
 > 한국어
 
 안녕하세요. 간단함, 평등함, 그리고 조화로움을 추구하는 개발자 조은찬입니다. 이 세가지 키워드에 맞게 개발을 하려고 노력하고 있습니다.

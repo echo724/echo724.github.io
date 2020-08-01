@@ -1,7 +1,6 @@
 ---
 layout: default
 description: Archive
-
 ---
 <div class="catalogue">
 {%- assign ordered = site.posts -%}

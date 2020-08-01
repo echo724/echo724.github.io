@@ -7,18 +7,18 @@
         width:100%;
         margin: 0 0 auto;
   }
-  margin-top: 20px;
+  margin-top: 0px;
   padding-bottom:10px;
 	z-index:1;
     &-item {
-				border-top: 1px solid rgba($dark-0,0.2);
+				border-bottom: 1px solid rgba($dark-0,0.2);
         // border-radius: 10px;
-				// box-shadow: -6px -6px 20px rgba(#ffffff, 0.8), 5px 5px 12px rgba(#a6b4c8, 0.7);
-        padding: 15px 10px;
+				// box-shadow: -6px -6px 20px rgba(#ffffff, 0.8), 5px 5px 11px rgba(#a6b4c8, 0.7);
+        padding: 20px 0px;
         list-style: none;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
         @media (max-width: $break-medium) {
-					margin-bottom: 10px;
+					margin-bottom: 0px;
 				}
     &:first-child{
         margin-top: 0px;
@@ -37,12 +37,12 @@
       margin-bottom: 2px;
       text-transform: uppercase;
       letter-spacing: 0.03em;
-      padding: 4px 4px;
-      font-size: 10px;
-      font-weight: 600;
+      padding: 5px 6px;
+      font-size: 11px;
+      font-weight: 500;
       background-color: $grey-4;
-      border-radius: 8px;
-
+      border-radius: 4px;
+      margin-right: 2px;
 			&-blog{
 				font-family: $san-serif;
 	      color: $yellow;
@@ -50,12 +50,12 @@
 	      margin-bottom: 2px;
 	      text-transform: uppercase;
 	      letter-spacing: 0.03em;
-	      padding: 4px 4px;
-	      font-size: 10px;
-	      font-weight: 600;
-	      border-radius: 8px;
+	      padding: 5px 6px;
+	      font-size: 11px;
+	      font-weight: 500;
+	      border-radius: 4px;
 				background-color: $grey-4;
-
+        margin-right: 2px;
 			}
 			&-project{
 				font-family: $san-serif;
@@ -64,12 +64,12 @@
 	      margin-bottom: 2px;
 	      text-transform: uppercase;
 	      letter-spacing: 0.03em;
-	      padding: 4px 4px;
-	      font-size: 10px;
-	      font-weight: 600;
-	      border-radius: 8px;
+	      padding: 5px 6px;
+	      font-size: 11px;
+	      font-weight: 500;
+	      border-radius: 4px;
 				background-color: $grey-4;
-
+        margin-right: 2px;
 			}
     }
 
@@ -80,13 +80,12 @@
         margin-bottom: 2px;
         text-transform: uppercase;
         letter-spacing: 0.03em;
-        padding: 4px 4px;
-        font-size: 10px;
-        font-weight: 600;
+        padding: 5px 6px;
+        font-size: 11px;
+        font-weight: 500;
         background-color: $grey-4;
-        border-radius: 8px;
-
-
+        border-radius: 4px;
+        margin-right: 2px;
     }
 
     &-info {
@@ -96,13 +95,13 @@
             color: rgba($dark-0,0.7);
             display: block;
             font-family: $san-serif;
-            font-size: 22px;
+            font-size: 24px;
             font-weight: 700;
             line-height: 1.5;
             position: relative;
 						word-break:keep-all;
-            @media (max-width: $break-small) {
-                  font-size: 20px;
+            @media (max-width: $break-medium) {
+                  font-size: 22px;
             }
         }
 
@@ -112,13 +111,13 @@
         }
 
         p.catalogue-sub {
-            font-size: 16px;
+            font-size: 18px;
 						font-weight: 400;
             color: $grey-1;
             line-height: 1.75;
 						font-family: $san-serif;
-            @media (max-width: $break-small) {
-                font-size: 16px;
+            @media (max-width: $break-medium) {
+                font-size: 18px;
             }
         }
         p.catalogue-body {
