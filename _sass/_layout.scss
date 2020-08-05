@@ -273,21 +273,22 @@ footer {
 .category{
   margin-top: 40px;
   display:flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   @media (max-width: $break-medium) {
     margin-top: 20px;
   }
   .category-items{
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 40px;
+    margin-left: 0px;
     font-family: $source;
     display: inline-block;
     color: $dark-0;
-    width: 34px;
-    height: 34px;
+    svg{
+      width: 40px;
+      height: 40px;
+    }
     a:hover {
          opacity: 0.6;
-
     }
     @media (max-width: $break-medium) {
       margin-top: 8px;

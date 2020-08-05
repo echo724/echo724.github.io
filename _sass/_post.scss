@@ -58,10 +58,10 @@
   border-radius: 20px;
   margin-top: 20px;
   background-color: #fff;
-	position: relative;
+    position: relative;
   padding: 34px 20px;
 	color: $grey-0;
-  width: 100%;
+  max-width: 100%;
   box-shadow: -6px -6px 20px rgba(#ffffff, 0.8), 5px 5px 12px rgba(#a6b4c8, 0.7);
 	// cursor: pointer;
   @media (max-width: $break-small) {
@@ -69,10 +69,8 @@
       padding: 34px 20px;
   }
     p {
-        margin-top:5px;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 2;
-        margin-bottom: 5px;
         font-family: $san-serif;
         font-weight: 400;
         letter-spacing: 0.02em;
@@ -405,5 +403,5 @@ video {
 hr{
   margin-top:-10px;
   border: none;
-  border-top: 1px solid $grey-6;
+//   border-top: 1px solid $grey-6;
 }
