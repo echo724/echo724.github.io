@@ -1,28 +1,6 @@
 <li class="catalogue-item">
     <a href="{{ page.url | prepend: site.baseurl }}" >
         <div class="catalogue-info transition">
-          {% if page.draft == true %}
-          <span class="catalogue-tag">
-              Coming Soon
-          </span>
-          {% endif %}
-          {% if page.tags != nil %}
-          {% for tag in page.tags %}
-            {% if tag == "blog" %}
-              <span class="catalogue-type-blog">
-                  {{ tag }}
-              </span>
-            {% elsif tag == "project" %}
-              <span class="catalogue-type-project">
-                  {{ tag }}
-              </span>
-            {% else %}
-              <span class="catalogue-type">
-                  {{ tag }}
-              </span>
-            {% endif %}
-          {% endfor %}
-          {% endif %}
             <h1 class="catalogue-title">
                 {{ page.title }}
             </h1>

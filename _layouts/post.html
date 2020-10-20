@@ -9,28 +9,6 @@ layout: default
         <h2 class="post-subtitle">
             {{ page.subtitle }}
         </h2>
-          {%- if page.draft == true -%}
-            <span class="catalogue-tag">
-                Coming Soon
-            </span>
-            {%- endif -%}
-            {% if page.tags != nil %}
-            {% for tag in page.tags %}
-              {% if tag == "blog" %}
-                <span class="catalogue-type-blog">
-                    {{ tag }}
-                </span>
-              {% elsif tag == "project" %}
-                <span class="catalogue-type-project">
-                    {{ tag }}
-                </span>
-              {% else %}
-                <span class="catalogue-type">
-                    {{ tag }}
-                </span>
-              {% endif %}
-            {% endfor %}
-            {% endif %}
             {%- if page.date -%}
             <span class="post-date">
                 {{ page.date | date: "%d %b, %Y" }}

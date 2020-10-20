@@ -1,22 +1,16 @@
 .catalogue {
-  // background-color: $dark-3;
 	position: relative;
-	color: #444;
-	cursor: pointer;
+  cursor: pointer;
   @media (max-width: $break-medium) {
         width:100%;
         margin: 0 0 auto;
   }
   margin-top: 0px;
   padding-bottom:10px;
-	z-index:1;
     &-item {
-				border-bottom: 1px solid rgba($dark-0,0.2);
-        // border-radius: 10px;
-				// box-shadow: -6px -6px 20px rgba(#ffffff, 0.8), 5px 5px 11px rgba(#a6b4c8, 0.7);
-        padding: 20px 0px;
+        padding: 20px 20px;
         list-style: none;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         @media (max-width: $break-medium) {
 					margin-bottom: 0px;
 				}
@@ -29,64 +23,6 @@
 //        border-bottom: 1px solid $grey-1;
     }
   }
-
-    &-type {
-      font-family: $san-serif;
-      color: $green;
-      display: inline-block;
-      margin-bottom: 2px;
-      text-transform: uppercase;
-      letter-spacing: 0.03em;
-      padding: 5px 6px;
-      font-size: 11px;
-      font-weight: 500;
-      background-color: $grey-4;
-      border-radius: 4px;
-      margin-right: 2px;
-			&-blog{
-				font-family: $san-serif;
-	      color: $yellow;
-	      display: inline-block;
-	      margin-bottom: 2px;
-	      text-transform: uppercase;
-	      letter-spacing: 0.03em;
-	      padding: 5px 6px;
-	      font-size: 11px;
-	      font-weight: 500;
-	      border-radius: 4px;
-				background-color: $grey-4;
-        margin-right: 2px;
-			}
-			&-project{
-				font-family: $san-serif;
-	      color: $skyblue;
-	      display: inline-block;
-	      margin-bottom: 2px;
-	      text-transform: uppercase;
-	      letter-spacing: 0.03em;
-	      padding: 5px 6px;
-	      font-size: 11px;
-	      font-weight: 500;
-	      border-radius: 4px;
-				background-color: $grey-4;
-        margin-right: 2px;
-			}
-    }
-
-    &-tag {
-        font-family: $san-serif;
-        color: $red;
-        display: inline-block;
-        margin-bottom: 2px;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-        padding: 5px 6px;
-        font-size: 11px;
-        font-weight: 500;
-        background-color: $grey-4;
-        border-radius: 4px;
-        margin-right: 2px;
-    }
 
     &-info {
         display: inline-block;

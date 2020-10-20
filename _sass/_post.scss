@@ -23,7 +23,6 @@
         color: $grey-0;
         text-align: left;
         left: 0px;
-        border-bottom: 1px solid rgba($dark-0,0.2);
         @media (max-width: $break-medium) {
             margin-left: 0px;
             margin-top: 20px;
@@ -58,11 +57,10 @@
   border-radius: 20px;
   margin-top: 20px;
   background-color: #fff;
-    position: relative;
+  position: relative;
   padding: 34px 20px;
-	color: $grey-0;
+  color: $grey-0;
   max-width: 100%;
-  box-shadow: -6px -6px 20px rgba(#ffffff, 0.8), 5px 5px 12px rgba(#a6b4c8, 0.7);
 	// cursor: pointer;
   @media (max-width: $break-small) {
       margin-top: 0px;
