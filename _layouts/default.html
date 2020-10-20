@@ -33,8 +33,8 @@
               </a>
             </li>
             <li class="category-items">
-              <a href="{{ '/study' | prepend: site.baseurl }}" {% if current[1] == "study" %} class="active"{% endif %} class = "normal" >
-                Study
+              <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} class = "normal" >
+                About
               </a>
             </li>
           </ul>
@@ -43,13 +43,7 @@
       </nav>
       <div class ="main-container">
         <div class ="wrapper">
-        <div class ="contents">
-          {%if page.layout !="post"%}
-          <div class = "floating">
-          {% include floating.html %}
-          </div>
-          {%endif%}
-          
+        <div class ="contents">   
           <main>
             {{ content }}
           </main>

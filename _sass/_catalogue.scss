@@ -47,6 +47,7 @@
         }
 
         p.catalogue-sub {
+            margin-left: 32px;
             font-size: 18px;
 						font-weight: 400;
             color: $grey-1;
@@ -69,11 +70,13 @@
 
 }
 .catalogue-date{
+  margin-left: 32px;
   margin-top:0px;
+  font-size: 18px;
+  font-weight: 400;
   color: $grey-1;
-  font-size: 15px;
+  line-height: 1.75;
   font-family: $san-serif;
-  font-weight: 300;
 }
 .catalogue-item:hover
 .catalogue-info {
