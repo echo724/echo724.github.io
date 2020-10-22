@@ -2,6 +2,10 @@
 layout: default
 description: Archive
 ---
+```bash
+echo@TechBlog in ~
+> ls -a posts
+```
 <div class="catalogue">
 {%- assign ordered = site.posts -%}
 {%- for page in ordered -%}

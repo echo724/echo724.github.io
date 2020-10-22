@@ -20,7 +20,7 @@
         margin-left: 0px;
         margin-bottom: 0px;
         font-family: $source;
-        color: $grey-0;
+        color: $dark-0-7;
         text-align: left;
         left: 0px;
         @media (max-width: $break-medium) {
@@ -58,8 +58,8 @@
   margin-top: 20px;
   background-color: #fff;
   position: relative;
-  padding: 34px 20px;
-  color: $grey-0;
+  padding: 34px 34px;
+  color: $dark-0-7;
   max-width: 100%;
 	// cursor: pointer;
   @media (max-width: $break-small) {
@@ -67,8 +67,8 @@
       padding: 34px 20px;
   }
     p {
-        font-size: 16px;
-        line-height: 2;
+        font-size: 18px;
+        line-height: 3;
         font-family: $san-serif;
         font-weight: 400;
         letter-spacing: 0.02em;
@@ -256,7 +256,7 @@ sup {
 .post-info>h1.post-title {
     padding: 0 0 0px 0;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 42px;
     font-family: $san-serif;
     line-height: 1.2;
     letter-spacing: -0.009em;
@@ -269,6 +269,7 @@ sup {
 }
 
 .post-info>h2.post-subtitle {
+    display: block;
     margin-top:5px;
     margin-bottom: 10px;
     padding: 10px 0 0px 0;
@@ -393,6 +394,7 @@ video {
 }
 
 .comment{
+  max-width: 100%;
   margin-top:34px;
   padding-top: 17px;
   border-top: 1px solid $grey-2;

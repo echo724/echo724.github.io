@@ -4,9 +4,9 @@ title: "Eunchan Cho"
 subtitle: Hi, I am a developer who pursues simplicity, equality, and harmony.
 header-img: /assets/images/profile.png
 permalink: /about/
+comment: False
 ---
 
-![/assets/images/profile.png](/assets/images/profile.png)
 # Channels.
 ***
 <div class = "about-accounts">

@@ -7,13 +7,17 @@
   }
   margin-top: 0px;
   padding-bottom:10px;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
     &-item {
-        padding: 20px 20px;
+        padding: 20px 0px;
         list-style: none;
-        margin-bottom: 20px;
         @media (max-width: $break-medium) {
-					margin-bottom: 0px;
-				}
+          margin-bottom: 0px;
+        }
+        margin: 5px 0;
     &:first-child{
         margin-top: 0px;
     }
@@ -23,21 +27,28 @@
 //        border-bottom: 1px solid $grey-1;
     }
   }
-
+    
     &-info {
         display: inline-block;
-
         h1.catalogue-title {
             color: rgba($dark-0,0.7);
             display: block;
             font-family: $san-serif;
-            font-size: 24px;
+            font-size: 28px;
             font-weight: 700;
             line-height: 1.5;
             position: relative;
-						word-break:keep-all;
+            word-break:keep-all;
             @media (max-width: $break-medium) {
                   font-size: 22px;
+            }
+            .prefix{
+              padding: 0px 15px;
+              display: inline-block;
+              border-radius: 5px;
+              color: white;
+              background-color: $code-background;
+              text-shadow: 2px 2px 5px rgba($dark-0,0.5);
             }
         }
 
@@ -45,11 +56,13 @@
             display: block;
             width: 100%;
         }
-
+        .subContainer{
+          margin-left: 52px;
+        }
         p.catalogue-sub {
-            margin-left: 32px;
+            margin-left:0px;
             font-size: 18px;
-						font-weight: 400;
+						font-weight: 300;
             color: $grey-1;
             line-height: 1.75;
 						font-family: $san-serif;
@@ -70,10 +83,9 @@
 
 }
 .catalogue-date{
-  margin-left: 32px;
   margin-top:0px;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   color: $grey-1;
   line-height: 1.75;
   font-family: $san-serif;
