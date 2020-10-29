@@ -24,19 +24,19 @@ footer>.footer_wrap {
     padding: 10px;
     margin-top: 0px;
     font-size: 20px;
-    background-color: $dark-0-7;
-    border-bottom: 1px solid rgba($dark-0,0.2);
+    background-color: $dark-1;
+    border-bottom: 1px solid rgba($dark-1,0.2);
     @media (max-width: $break-small) {
-        margin-bottom: -10px;
+        padding: 5px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
     }
   .nav-container {
       max-width: 1100px;
       box-sizing: border-box;
       margin:0 auto;
       padding: 0 2em;
-      @media (max-width: $break-small) {
-          padding: 0 0px;
-      }
       .blog-name{
         font-family: $source;
         float:left;
@@ -44,7 +44,7 @@ footer>.footer_wrap {
         margin-bottom: 5px;
         code{
           background-color:$white;
-          color: $dark-0-7;
+          color: $dark-1;
           font-size: 28px;
           font-weight: 100;
           .badge {
@@ -52,7 +52,7 @@ footer>.footer_wrap {
              position: relative;
              margin-bottom:-5px;
              padding: 12px 4px;
-             background-color: rgba($dark-0-7,0.3);
+             background-color: rgba($dark-1,0.3);
              font-weight: 700;
              animation: blink-animation 1s steps(5, start) infinite alternate;
              -webkit-animation: blink-animation 1s steps(5, start) infinite alternate;
@@ -89,28 +89,28 @@ footer>.footer_wrap {
       padding: 5px;
       margin-top: 5px;
       float: right;
-      display:flex;
-      justify-content: flex-start;
-      @media (max-width: $break-medium) {
-        margin-top: 20px;
+      @media (max-width: $break-small) {
+        margin-top: 0px;
+        float:left;
       }
       .category-items{
         // text-shadow: 1px 0 0.2px rgba(0,0,0,0.3);
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
         font-family: $source;
         display: inline-block;
-        color: $dark-0;
+        color: $dark-1;
         a:hover {
              opacity: 0.6;
         }
         @media (max-width: $break-medium) {
-          margin-top: 8px;
+          margin-right: 10px;
+          margin-left: 10px;
         }
         }
       }
     .active{
-      // box-shadow: 2px 2px 10px rgba($dark-0,0.5);
+      // box-shadow: 2px 2px 10px rgba($dark-1,0.5);
       color: $white;
       font-weight: 500;
       // background-color: white;
@@ -151,7 +151,7 @@ footer>.footer_wrap {
 
 a {
     font-weight: 300;
-    color: $dark-0;
+    color: $dark-1;
 }
 
 //footer
@@ -201,7 +201,7 @@ footer {
   width: 100%;
   @media (max-width: $break-small) {
       display:block;
-      padding:0 1em;
+      padding:0 0em;
       margin-top: 10px;
   }
 

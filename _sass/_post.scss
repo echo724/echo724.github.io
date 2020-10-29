@@ -20,7 +20,7 @@
         margin-left: 0px;
         margin-bottom: 0px;
         font-family: $source;
-        color: $dark-0-7;
+        color: $dark-1;
         text-align: left;
         left: 0px;
         @media (max-width: $break-medium) {
@@ -40,7 +40,7 @@
         display: flex;
         font-weight: 700;
         font-size: 26px;
-        color: rgba($dark-0,0.7);
+        color: rgba($dark-1,0.7);
         @media (max-width:  $break-medium) {
             font-size: 24px;
         }
@@ -59,7 +59,7 @@
   background-color: #fff;
   position: relative;
   padding: 34px 34px;
-  color: $dark-0-7;
+  color: $dark-1;
   max-width: 100%;
 	// cursor: pointer;
   @media (max-width: $break-small) {
@@ -254,6 +254,7 @@ sup {
     margin-bottom: 50px;
 }
 .post-info>h1.post-title {
+    color: $dark-1;
     padding: 0 0 0px 0;
     font-weight: 700;
     font-size: 42px;
